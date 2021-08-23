@@ -31,7 +31,7 @@ Raspberry Pi é uma série de computadores de placa única do tamanho reduzido, 
 
 ARM, originalmente Acorn RISC Machine, e depois Advanced RISC Machine, é uma família de arquiteturas RISC desenvolvida pela empresa britânica ARM Holdings. Tais arquiteturas são licenciadas pela ARM para outras empresas, que implementam-nas em seus próprios produtos.
 
-Mais informações acesse: https://www.raspberrypi.org/
+Mais informações acesse: https://www.raspberrypi.org/<br>
 Ubuntu Raspberry Pi: https://ubuntu.com/download/raspberry-pi
 
 [![Ubuntu Server Pi 3](http://img.youtube.com/vi//0.jpg)]( "Ubuntu Server Pi 3")
