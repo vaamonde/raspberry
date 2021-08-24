@@ -23,7 +23,7 @@ Link da Playlist:
 
 ![Raspberry Pi 3](pi3.png)
 
-## **INSTALAÇÃO do Ubuntu Server 20.04.x LTS ARM no Raspberry Pi 3**
+## **INSTALAÇÃO do UBUNTU SERVER 20.04.x LTS ARM x64 Bits no Raspberry Pi 3 B v1.2**
 
 Vídeo mostrando os procedimentos básicos para instalar a versão do Ubuntu Server 20.04.x LTS ARM no Raspberry Pi 3
 
@@ -34,8 +34,8 @@ ARM, originalmente Acorn RISC Machine, e depois Advanced RISC Machine, é uma fa
 Mais informações acesse: https://www.raspberrypi.org/<br>
 Ubuntu Raspberry Pi: https://ubuntu.com/download/raspberry-pi
 
-[![Ubuntu Server Pi 3](http://img.youtube.com/vi//0.jpg)]( "Ubuntu Server Pi 3")
+[![Ubuntu Server Pi 3](http://img.youtube.com/vi/ZA08brQuIIY/0.jpg)](https://www.youtube.com/watch?v=ZA08brQuIIY "Ubuntu Server Pi 3")
 
-Link da vídeo aula: 
+Link da vídeo aula: https://www.youtube.com/watch?v=ZA08brQuIIY
 
 Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/ubuntu/01-UbuntuServer-2004.md
