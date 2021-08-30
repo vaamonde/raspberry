@@ -8,9 +8,12 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 23/08/2021<br>
-#Data de atualização: 23/08/2021<br>
-#Versão: 0.1<br>
+#Data de atualização: 30/08/2021<br>
+#Versão: 0.2<br>
 #Testado e homologado no Raspberry Pi 3 B e Ubuntu Server 20.04.x LTS ARM x64 Bits
+
+26/08/2021 - Lançamento da versão do Ubuntu 20.04.3 LTS: https://wiki.ubuntu.com/FocalFossa/ReleaseNotes/ChangeSummary/20.04.3
+26/08/2021 - Release Ubuntu Desktop and Server: https://releases.ubuntu.com/20.04/
 
 #Instalação do Ubuntu Server 20.04.x LTS ARM x64 Bits
 

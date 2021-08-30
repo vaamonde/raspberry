@@ -22,6 +22,7 @@
 	
 	_ Informações sobre o Ubuntu Core: https://ubuntu.com/core
 	_ Link para download: https://cdimage.ubuntu.com/ubuntu-core/20/stable/current/
+	_ Snapcraft: https://snapcraft.io/
 	_ Suporte para as versões do Raspberry: Pi3, Pi4, Pi400 e PiCM4
 
 #03_ Limpando as Partições microSD Card
