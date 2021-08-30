@@ -53,10 +53,10 @@
 	_	New password: pti@2018
 	_	Retry new password: pti@2018
 	
-	_ Recomendado depois de trocar a senha fazer a reinicialização do sistema
+	_ Recomendado depois que você trocar a senha, fazer a reinicialização do sistema.
 	_	sudo reboot
 	
-	_ Finalize a instalação fazendo o upgrade do servidor (Obs: esse processo demora um pouco)
+	_ Finalize a instalação fazendo o Upgrade do Servidor (Obs: esse processo demora um pouco)
 	_	sudo apt update
 	_	sudo apt upgrade
 	_	sudo apt full-upgrade
@@ -65,3 +65,6 @@
 	_	sudo apt autoclean
 	_	sudo apt clean
 	_	sudo reboot
+
+	_ DICA: recomendo configurar a Placa de Rede do Ubuntu Server em modo Estático:
+	_ Vídeo de configuração do Netplan no Ubuntu Server: https://www.youtube.com/watch?v=zSUd4k108Zk
