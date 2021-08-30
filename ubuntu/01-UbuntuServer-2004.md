@@ -40,8 +40,10 @@
 
 #05_ Ligando o Raspberry Pi 3 B com o microSD Card do Ubuntu Server 20.04.x LTS ARM x64 Bits
 	
-	_ OBSERVAÇÃO: na primeira inicialização aguardar alguns minutos para que o serviço do SSH
-	_ e do Cloud-Init sejá inicializado para se logar e trocar a senha do usuário ubuntu.
+	_ OBSERVAÇÃO: na primeira inicialização do Ubuntu Server, aguardar alguns minutos para 
+	_ que o serviço do SSH e do Cloud-Init sejá inicializado corretamente, será apresentado
+	_ as mensagens de geração das Chaves do SSH e inicialização do Cloud.Init, após essas 
+	_ mensagens você consegue se logar e trocar a senha do usuário ubuntu.
 
 	_ Usuário padrão: ubuntu
 	_ Senha padrão: ubuntu
