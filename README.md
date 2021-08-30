@@ -34,8 +34,27 @@ ARM, originalmente Acorn RISC Machine, e depois Advanced RISC Machine, é uma fa
 Mais informações acesse: https://www.raspberrypi.org/<br>
 Ubuntu Raspberry Pi: https://ubuntu.com/download/raspberry-pi
 
-[![Ubuntu Server Pi 3](http://img.youtube.com/vi/ZA08brQuIIY/0.jpg)](https://www.youtube.com/watch?v=ZA08brQuIIY "Ubuntu Server Pi 3")
+[![Ubuntu Server Pi 3](http://img.youtube.com/vi/1xPJ9aXcmvc/0.jpg)](https://www.youtube.com/watch?v=1xPJ9aXcmvc "Ubuntu Server Pi 3")
 
-Link da vídeo aula: https://www.youtube.com/watch?v=ZA08brQuIIY
+Link da vídeo aula: https://www.youtube.com/watch?v=1xPJ9aXcmvc
 
 Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/ubuntu/01-UbuntuServer-2004.md
+
+## **INSTALAÇÃO do UBUNTU CORE 20 ARM x64 Bits no Raspberry Pi 3 B v1.2**
+
+Vídeo mostrando os procedimentos básicos para instalar a versão do Ubuntu Core 20 ARM no Raspberry Pi 3
+
+O Ubuntu Core é um sistema operacional enxuto, estritamente confinado e totalmente transacional. Nós o projetamos do zero, com foco na segurança e manutenção simplificada, para aparelhos e redes de grandes dispositivos. Ubuntu Core é movido por Snaps o formato de empacotamento universal do Linux.
+
+Snappy é um software de implantação e um sistema de gerenciamento de pacotes originalmente projetado e construído pela Canonical para o sistema operacional Ubuntu Touch.
+
+Mais informações acesse: https://www.raspberrypi.org/<br>
+Ubuntu Core: https://ubuntu.com/core<br>
+Download Ubuntu Core: https://cdimage.ubuntu.com/ubuntu-core/20/stable/current/<br>
+Snapcraft: https://snapcraft.io/
+
+[![Ubuntu Core Pi 3](http://img.youtube.com/vi//0.jpg)]( "Ubuntu Core Pi 3")
+
+Link da vídeo aula: 
+
+Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/ubuntu/01-UbuntuCore-20.md

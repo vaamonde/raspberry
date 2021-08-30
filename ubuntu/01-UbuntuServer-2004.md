@@ -12,12 +12,12 @@
 #Versão: 0.2<br>
 #Testado e homologado no Raspberry Pi 3 B e Ubuntu Server 20.04.x LTS ARM x64 Bits
 
-26/08/2021 - Lançamento da versão do Ubuntu 20.04.3 LTS: https://wiki.ubuntu.com/FocalFossa/ReleaseNotes/ChangeSummary/20.04.3
+26/08/2021 - Lançamento da versão do Ubuntu 20.04.3 LTS: https://wiki.ubuntu.com/FocalFossa/ReleaseNotes/ChangeSummary/20.04.3<br>
 26/08/2021 - Release Ubuntu Desktop and Server: https://releases.ubuntu.com/20.04/
 
 #Instalação do Ubuntu Server 20.04.x LTS ARM x64 Bits
 
-#01_ Software para a gravação das imagens no SD Card<br>
+#01_ Software para a gravação das imagens no microSD Card<br>
 
 	_ RPI-Manager: https://www.raspberrypi.org/software/
 
@@ -66,5 +66,5 @@
 	_	sudo apt clean
 	_	sudo reboot
 
-	_ DICA: recomendo configurar a Placa de Rede do Ubuntu Server em modo Estático:
+	_ DICA: recomendado configurar a Placa de Rede do Ubuntu Server em modo Estático:
 	_ Vídeo de configuração do Netplan no Ubuntu Server: https://www.youtube.com/watch?v=zSUd4k108Zk
