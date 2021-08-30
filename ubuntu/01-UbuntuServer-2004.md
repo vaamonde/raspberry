@@ -34,7 +34,7 @@
 
 #04_ Gravando a imagem do Ubuntu Server no SD Card
 
-	_ Botão direito do mouse na imagem: ubuntu-20.04.2-preinstalled-server-arm64+raspi.img.xz
+	_ Botão direito do mouse na imagem: ubuntu-20.04.3-preinstalled-server-arm64+raspi.img.xz
 	_ Selecionar: Abrir com o Gravador de imagem de disco
 	_ Destino: Driver de 16GB/32GB - Generic SD/MMC/MS PRO (/dev/sdb) <Iniciar restauração>
 
