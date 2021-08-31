@@ -19,7 +19,7 @@ Site do Ubuntu IoT: https://ubuntu.com/download/iot<br>
 Site do Linux Mint: https://www.linuxmint.com/​
 
 ## **Playlist do YouTUBE com todos os Vídeos do Raspberry Pi**
-Link da Playlist: 
+Link da Playlist: https://www.youtube.com/playlist?list=PLozhsZB1lLUN-20sYOTKgsrw6Wm_j5QcE
 
 ![Raspberry Pi 3](pi3.png)
 
