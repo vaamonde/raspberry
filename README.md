@@ -25,6 +25,8 @@ Link da Playlist: https://www.youtube.com/playlist?list=PLozhsZB1lLUN-20sYOTKgsr
 
 ## **INSTALAÇÃO do UBUNTU SERVER 20.04.x LTS ARM x64 Bits no Raspberry Pi 3 B v1.2**
 
+OBSERVAÇÃO IMPORTANTE: NO VÍDEO AOS: 02:13 EU FALO QUE ESSE MODELO NÃO TEM PLACA DE REDE SEM-FIO (WI-FI/WIRELESS) - ESTÁ ERRADO!!! ELE TEM O CHIP: BROADCOM BCM43438 QUE FORNECE WI-FI E BLUETOOTH INTEGRADO, DESCONSIDERAR ESSA FALA (CONFUNDIR COM OUTRO MODELO). DOCUMENTAÇÃO ATUALIZADA NO GITHUB.
+
 Vídeo mostrando os procedimentos básicos para instalar a versão do Ubuntu Server 20.04.x LTS ARM no Raspberry Pi 3
 
 Raspberry Pi é uma série de computadores de placa única do tamanho reduzido, que se conecta a um monitor de computador ou TV, e usa um teclado e um mouse padrão, desenvolvido no Reino Unido pela Fundação Raspberry Pi. Todo o hardware é integrado numa única placa.
