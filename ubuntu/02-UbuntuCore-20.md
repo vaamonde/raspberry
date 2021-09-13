@@ -8,8 +8,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 24/08/2021<br>
-#Data de atualização: 24/08/2021<br>
-#Versão: 0.1<br>
+#Data de atualização: 13/09/2021<br>
+#Versão: 0.2<br>
 #Testado e homologado no Raspberry Pi 3 B e Ubuntu Core 20 ARM x64 Bits
 
 #Instalação do Ubuntu Core 20 ARM x64 Bits
@@ -44,7 +44,8 @@
 #06_ Criando o Par de Chaves SSH para autenticação no Ubuntu Core 20 ARM x64 Bits
 
 	_ Criando a chave pública: ssh-keygen -t rsa
-	_ Visualizando o conteúdo da chave pública: cat ~/.ssh/id_rsa.pub
+	_ Alterando o nome da chave pública: /home/vaamonde/.ssh/id_rsa_ubuntu)
+	_ Visualizando o conteúdo da chave pública: cat ~/.ssh/id_rsa_ubuntu.pub
 
 #07_ Copiando o conteúdo da Chave Pública no Ubuntu One
 
@@ -53,9 +54,12 @@
 
 #08_ Ligando o Raspberry Pi 3 B com o microSD Card do Ubuntu Core 20 ARM x64 Bits
 
-	_ Observação: No primeiro boot do Ubuntu Core o processo demora um pouco, devido ao 
-	_ reparticionamento do microSD e a instalação e configuração dos serviços base da 
-	_ distribuição, após essa configuração o sistema será reinicializado.
+	_ OBSERVAÇÃO IMPORTANTE: No primeiro boot do Ubuntu Core o processo demora um pouco, 
+	_ devido ao reparticionamento do microSD e a instalação e configuração dos serviços 
+	_ base da distribuição e do Snapy, após essa configuração o sistema será reinicializado.
+	_ Será necessário confirmar na tela: "Press enter to configure" as configurações básicas
+	_ do sistema, o Ubuntu Core será reinicializado duas vezes antes de começar o processo de
+	_ configuração da Placa de Rede e usuário.
 
 #09_ Configurando o Ubuntu Core 20 ARM x64 Bits
 
@@ -67,6 +71,7 @@
 	_	Enter an email address from your account in the store. <Done>
 	_ 	This device is registered to: seuemail@seudominio.com. <Done>
 
-#10_ Acessando remotamente o Ubuntu Core 20 ARM x64 Bits
+#10_ Acessando remotamente via SSH o Ubuntu Core 20 ARM x64 Bits
 
+	_ OBS2: para se autenticar no Ubuntu Core é necessário utilizar o seu usuário do Ubuntu One
 	_ Terminal: ssh seuusuarioubuntuone@endereço_ipv4_ubuntu_core
