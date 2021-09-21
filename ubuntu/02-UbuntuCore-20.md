@@ -9,7 +9,7 @@
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 24/08/2021<br>
 #Data de atualização: 13/09/2021<br>
-#Versão: 0.2<br>
+#Versão: 0.3<br>
 #Testado e homologado no Raspberry Pi 3 B e Ubuntu Core 20 ARM x64 Bits
 
 #Instalação do Ubuntu Core 20 ARM x64 Bits
@@ -75,3 +75,10 @@
 
 	_ OBS2: para se autenticar no Ubuntu Core é necessário utilizar o seu usuário do Ubuntu One
 	_ Terminal: ssh seuusuarioubuntuone@endereço_ipv4_ubuntu_core
+
+#11 _ Instalando o Snappy Core e Classic no Ubuntu Core 20 ARM x64 Bits
+
+	_ Atualizando as opções de software do Snappy: sudo snap refresh
+	_ Instalando o Snappy Core: sudo snap install core --edge
+	_ Instalando o Snappy Classic: sudo snap install --channel=18/edge classic
+	_ Executando o modo Classic: sudo classic

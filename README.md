@@ -12,7 +12,7 @@ Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 LinkedIn Robson Vaamonde: https://www.linkedin.com/in/robson-vaamonde-0b029028/<br>
 
-## **Links Oficiais do Arduino IDE e Linux Mint:**
+## **Links Oficiais do Raspberry Pi, Arduino, Ubuntu IoT e Linux Mint:**
 Site do Raspberry Pi: https://www.raspberrypi.org/<br>
 Site do Arduino: https://www.arduino.cc/<br>
 Site do Ubuntu IoT: https://ubuntu.com/download/iot<br>
