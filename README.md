@@ -59,4 +59,4 @@ Snapcraft: https://snapcraft.io/
 
 Link da vídeo aula: 
 
-Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/ubuntu/01-UbuntuCore-20.md
+Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/ubuntu/02-UbuntuCore-20.md
