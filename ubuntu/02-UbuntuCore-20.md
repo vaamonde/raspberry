@@ -8,7 +8,7 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 24/08/2021<br>
-#Data de atualização: 13/09/2021<br>
+#Data de atualização: 22/09/2021<br>
 #Versão: 0.3<br>
 #Testado e homologado no Raspberry Pi 3 B e Ubuntu Core 20 ARM x64 Bits
 
@@ -37,20 +37,20 @@
 	_ Selecionar: Abrir com o Gravador de imagem de disco
 	_ Destino: Driver de 16GB/32GB - Generic SD/MMC/MS PRO (/dev/sdb) <Iniciar restauração>
 
-#05_ Criando sua conta no Ubuntu One
+#05_ Criando sua conta no Ubuntu One SSO (Single Sign On)
 
-	_ Ubuntu One: https://login.ubuntu.com/
+	_ Ubuntu One SSO: https://login.ubuntu.com/
 
 #06_ Criando o Par de Chaves SSH para autenticação no Ubuntu Core 20 ARM x64 Bits
 
 	_ Criando a chave pública: ssh-keygen -t rsa
-	_ Alterando o nome da chave pública: /home/vaamonde/.ssh/id_rsa_ubuntu)
+	_ Alterando o nome da chave pública: /home/vaamonde/.ssh/id_rsa_ubuntu
 	_ Visualizando o conteúdo da chave pública: cat ~/.ssh/id_rsa_ubuntu.pub
 
 #07_ Copiando o conteúdo da Chave Pública no Ubuntu One
 
 	_ Ubuntu One SSH Key: https://login.ubuntu.com/ssh-keys
-	_ Copiar a colar os valores da chave pública no campo: Import new SSH key <Import SSH Key>
+	_ Copiar a colar todo o conteúdo da chave pública no campo: Import new SSH key <Import SSH Key>
 
 #08_ Ligando o Raspberry Pi 3 B com o microSD Card do Ubuntu Core 20 ARM x64 Bits
 
@@ -59,11 +59,11 @@
 	_ base da distribuição e do Snapy, após essa configuração o sistema será reinicializado.
 	_ Será necessário confirmar na tela: "Press enter to configure" as configurações básicas
 	_ do sistema, o Ubuntu Core será reinicializado duas vezes antes de começar o processo de
-	_ configuração da Placa de Rede e usuário.
+	_ configuração da Placa de Rede e do Usuário de acesso remoto via SSH.
 
 #09_ Configurando o Ubuntu Core 20 ARM x64 Bits
 
-	_ Após a inicialização do Ubuntu Core, será solicitado para você fazer as configurações do sistema;
+	_ Após as reinicializações do Ubuntu Core, vamos configurar o sistema;
 	_	Press enter to configure <Enter>
 	_	Configure the network and setup an administrator account on this all-snap Ubuntu Core system. <OK>
 	_	Configure at least one interfaces this server can use to talk to other machines, and which
@@ -74,11 +74,14 @@
 #10_ Acessando remotamente via SSH o Ubuntu Core 20 ARM x64 Bits
 
 	_ OBS2: para se autenticar no Ubuntu Core é necessário utilizar o seu usuário do Ubuntu One
-	_ Terminal: ssh seuusuarioubuntuone@endereço_ipv4_ubuntu_core
+	_ Terminal: ssh seu_usuario_ubuntu_one@endereço_ipv4_ubuntu_core
 
 #11 _ Instalando o Snappy Core e Classic no Ubuntu Core 20 ARM x64 Bits
 
-	_ Atualizando as opções de software do Snappy: sudo snap refresh
-	_ Instalando o Snappy Core: sudo snap install core --edge
-	_ Instalando o Snappy Classic: sudo snap install --channel=18/edge classic
-	_ Executando o modo Classic: sudo classic
+	_ OBS3: o Ubuntu Core trabalha principalmente com Snappy, caso queira utilizar os comandos
+	_       básicos das distribuições é necessário instalar o Snappy Classic
+	_ 01 Atualizando as opções de software do Snappy: sudo snap refresh
+	_ 02 Instalando o Snappy Core: sudo snap install core --edge
+	_ 03 Instalando o Snappy Classic: sudo snap install classic --edge --devmode
+	_ 04 Verificando os Snappy instalados: sudo snap list
+	_ 04 Executando o modo Classic: sudo classic
