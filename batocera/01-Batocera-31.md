@@ -22,9 +22,10 @@
 
 #02_ Download da Imagem do Batocera 31 Raspberry Pi 3 B/B+
 		
-	_ https://batocera.org/download
+	_ Site oficial do Batocera: https://batocera.org/download
 	_ Suporte para as versões do Raspberry: Pi 3 B/B+
 	_ Manual de configuração do Batocera: https://wiki.batocera.org/
+	_ Controles/Joystick Suportados: https://wiki.batocera.org/supported_controllers
 	_ Screen Scraper (informações das ROMS): https://www.screenscraper.fr/
 
 	_ Download Full-Pack BIOS Batocera V31: http://theminicaketv.free.fr/PACK-BIOS-BATOCERA.htm
@@ -36,6 +37,11 @@
 	_ RetroArch: https://www.retroarch.com/
 	_ Lakka: https://www.lakka.tv/
 	_ RetroBat: https://www.retrobat.ovh/
+
+	_ Indicação de Joystick com Review do Professor Ramos (https://www.youtube.com/professorramos)
+	_ Joystick GameSir G4s PT-BR 🎮 Gamepad Bluetooth - 2.4G Wi-Fi - USB 🌟Análise - Review: https://www.youtube.com/watch?v=NejpVhA45xQ
+	_ Joystick para celular Android e PC Windows e Linux !!! Gamepad iPega 9099 Wolverine: https://www.youtube.com/watch?v=MIf5Q_R1vEI
+	_ Agora eu vou dar Hadouken !!! Joystick Arcade iPega PG-9059 Fight | PC | Nintendo Switch | PS3 e 4: https://www.youtube.com/watch?v=OnaDImXmWz8
 
 #03_ Limpando as Partições microSD Card
 
