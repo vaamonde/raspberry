@@ -55,8 +55,20 @@ Ubuntu Core: https://ubuntu.com/core<br>
 Download Ubuntu Core: https://cdimage.ubuntu.com/ubuntu-core/20/stable/current/<br>
 Snapcraft: https://snapcraft.io/
 
-[![Ubuntu Core Pi 3](http://img.youtube.com/vi//0.jpg)]( "Ubuntu Core Pi 3")
+[![Ubuntu Core Pi 3](http://img.youtube.com/vi/dYCBHpzgOdw/0.jpg)](https://www.youtube.com/watch?v=dYCBHpzgOdw "Ubuntu Core Pi 3")
+
+Link da vídeo aula: https://www.youtube.com/watch?v=dYCBHpzgOdw
+
+Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/ubuntu/02-UbuntuCore-20.md
+
+## **INSTALAÇÃO do BATOCERA V31 no Raspberry Pi 3 B v1.2**
+
+Vídeo mostrando os procedimentos básicos para instalar e configurar a versão do Retrô Games Batocera v31 no Raspberry Pi 3
+
+O Batocera Linux é uma distribuição de jogos retro de código aberto e totalmente gratuita que pode ser copiada para um Pendrive USB ou um cartão microSD com o objetivo de transformar qualquer computador / nano computador em um console de jogo durante um jogo ou permanentemente. Batocera Linux não requer nenhuma modificação no seu computador.
+
+[![Batocera Pi 3](http://img.youtube.com/vi//0.jpg)]( "Batocera Pi 3")
 
 Link da vídeo aula: 
 
-Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/ubuntu/02-UbuntuCore-20.md
+Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/batocera/01-Batocera-31.md
