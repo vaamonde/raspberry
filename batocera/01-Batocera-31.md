@@ -8,10 +8,11 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 17/09/2021<br>
-#Data de atualização: 23/09/2021<br>
-#Versão: 0.3<br>
+#Data de atualização: 24/09/2021<br>
+#Versão: 0.4<br>
 #Testado e homologado no Raspberry Pi 3 B e Batocera 31
 
+#Site Oficial do Batocera: https://batocera.org/
 #Changelog do Batocera: https://batocera.org/changelog
 
 #Instalação do Batocera 31 (18/06/2021) Raspberry Pi 3 B
