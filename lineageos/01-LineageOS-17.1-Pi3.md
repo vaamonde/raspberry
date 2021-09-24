@@ -23,6 +23,8 @@
 		
 	_ Site (NÃO) oficial do LineageOS: https://konstakang.com/devices/rpi3/
 	_ Suporte para as versões do Raspberry: Pi 3 B/B+
+	_ Site (NÃO) oficial do LineageOS Recovery 2 Boot: https://androidfilehost.com/?fid=8889791610682901035
+	_ Site do Open Google Apps: https://opengapps.org/
 
 	_ Link para Hardware diferentes: https://konstakang.com/devices/
 
@@ -40,12 +42,22 @@
 	_ Selecionar: Abrir com, Gravador de Imagem de Disco
 	_ Destino: Driver de 16GB/32GB - Generic SD/MMC/MS PRO (/dev/sdb) <Iniciar restauração>
 
-#05_ Ligando o Raspberry Pi 3 B com o microSD Card do LineageOS 17.1
-	
-	_ OBS2: é recomendado ligar o LineageOS 17.1 conectado na e Rede e com acesso a Internet
-	_ OBS3: o primeiro boot do LineageOS 17.1 demora bastante pois será feito o reparticionamento do microSD
+#05_ Formatar um Pen Driver em FAT32 para copiar os arquivos do Google Apps
 
-#06_ Configuração do LineageOS 17.1
+	_ OBSERVAÇÃO IMPORTANTE: Conforme documentado no site, o desenvolvedor não "RECOMENDA" fazer a instalação
+	_ do Google Apps (gapps) no Raspberry Pi 3 devido a pouca memória que o mesmo possui, nesse cenário ele
+	_ recomenda utilizar a versão Pi 4 com no mínimo 4GB de memória RAM
+	_ Formatar um Pen Driver em FAT32 e copiar os arquivos:
+	_ Primeiro: lineage-17.1-rpi-recovery2boot.zip (não precisa descompactar)
+	_ Segundo: open_gapps-arm-10.0-tvstock-20200918.zip (não precisa descompactar)
+
+#06_ Ligando o Raspberry Pi 3 B com o microSD Card do LineageOS 17.1
+	
+	_ OBS2: é recomendado ligar o LineageOS 17.1 conectado na e Rede Cabeada e com acesso a Internet
+	_ OBS3: o primeiro boot do LineageOS 17.1 demora bastante pois será feito o reparticionamento do microSD
+	_ OBS4: ligar o Raspberry Pi com o microSD Card do LineageOS e também o Pen Driver com o Google Apps
+
+#07_ Configuração inicial do LineageOS 17.1
 
 	_ Tela inicial do LineageOS: Next
 	_ End User License Agreement (EULA): Accept
@@ -54,14 +66,23 @@
 	_ Serviço de localização: Permitir: Próximo
 	_ Recurso LineageOS: Ajude a melhorar o LineageOS: Próximo
 	_ Projeta o seu tablet: Proteger este dispositivo (Configurar): Pular
-	_ OBS4: o sistema será finalizado, algumas falhas de tela apareceu na versão do Pi3, depois que você clicar
+	_ OBS5: o sistema será finalizado, algumas falhas de tela apareceu na versão do Pi3, depois que você clicar
 	_ no botão: Iniciar o sistema funciona perfeitamente sem falhas.
 
-#07_ Instalação do Google Apps Pico no LineageOS 17.1
+#08_ Habilitando o modo Desenvolvedor do LineageOS
 
-	_ OBSERVAÇÃO IMPORTANTE: Conforme documentado no site, o desenvolvedor não "Recomenda" fazer a instalação
-	_ do Google Apps (gapps) no Raspberry Pi 3 devido a pouca memória que o mesmo possui, nesse cenário ele
-	_ recomenda utilizar a versão Pi 4 com jo mínimo 4GB de memória RAM
-	_ Download do OpenGapps (https://opengapps.org/): Plaform: ARM, Android: 10.0, Variant: pico <Download>
-	_ Salvar o arquivo Zipado no Pendrive USB: 
-	_ Conectar o Pendrive no Raspberry Pi acessar: Configurações, Sistema, 
+	_ Acessar: Configurações, na Barra de: Pesquisar em Configurações digite: Sobre o Tablet (About)
+	_ Descer até a opção: Número da versão (Build), Clicar várias vezes para habilitar o Modo Desenvolvedor
+	_ Voltar em: Configurações, Sistema, Avançado, Opções do Desenvolvedor
+	_ Habilitar: Root Access <OK>
+	_ Habilitar: Depuração Android <OK>
+	_ Habilitar: Terminal Local <OK>
+	_ Voltar em: Configurações, Apps e Notificações, Ver todos os 15 apps, Terminal <Abrir> <Permitir>
+	_ Digite: su <Enter>, depois: rpi3-recevory.sh <Enter> depois: reboot <Enter>
+
+#07_ Instalação do Google Apps TVStock no LineageOS 17.1
+
+	_ Na tela do TWRP (Team Win Recovery Project) clique em: Swipe to Allow Modifications
+	_ Na tela do Modifications clique em: Install
+	_ Na tela do Install clique em: Select Storage
+	_ Na tela do Select Storage selecione em: USB (16GB) <OK>
