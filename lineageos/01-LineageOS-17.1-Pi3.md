@@ -82,7 +82,30 @@
 
 #07_ Instalação do Google Apps TVStock no LineageOS 17.1
 
-	_ Na tela do TWRP (Team Win Recovery Project) clique em: Swipe to Allow Modifications
-	_ Na tela do Modifications clique em: Install
-	_ Na tela do Install clique em: Select Storage
-	_ Na tela do Select Storage selecione em: USB (16GB) <OK>
+	_01# Na tela do TWRP (Team Win Recovery Project) clique em: Swipe to Allow Modifications
+	_02# Na tela do Modifications clique em: Install
+	_03# Na tela do Install clique em: Select Storage
+	_04# Na tela do Select Storage selecione em: USB (16GB) <OK>
+	_05# Na tela do USB Storage clica no arquivo: open_gapps-arm-10.0-tvstock-20200918.zip
+	_06# Na tela do Install File clique em: Swipe to confirm Flash (esse procedimentos demora um pouco)
+	_07# Na tela de Successful Install clique em: Wipe Dalvik
+	_08# Na tela de Wipe Dalvik clique em: Swipe to Wipe
+	_09# Volte para o Menu Principal clicando no Logo do TWRP
+	_10# Na tela do Menu Principal do TWRP clique em: Wipe
+	_11# Na tela de Wipe Factory Reset clique em: Swipe to Factory Reset
+	_12# Volte para o Menu Principal clicando no Logo do TWRP
+	_13# Na tela do Menu Principal do TWRP clique em: Mount
+	_14# Na tela do Mount clique em: Boot
+	_15# Volte para o Menu Principal clicando no Logo do TWRP
+	_16# Na tela do Menu Principal do TWRP clique em: Install
+	_17# Na tela do USB Storage clica no arquivo: lineage-17.1-rpi-recovery2boot.zip
+	_18# Na tela do Install File clique em: Swipe to confirm Flash (esse procedimentos é bem rápido)
+	_19# Volte para o Menu Principal clicando no Logo do TWRP
+	_20# Na tela do Menu Principal do TWRP clique em: Reboot
+	_21# Na tela do Reboot clique em: System
+
+#08_ Primeiro boot com o Google Apps TVStock no LineageOS 17.1
+
+	_ OBSERVAÇÃO IMPORTANTE: o primeiro boot com o Google Apps TVStock no LineageOS 17.1 no Raspberry Pi 3
+	_ demora bastante, só aguardar a inicialização para começar o processo de configuração o Google PlayTV
+	_ 
