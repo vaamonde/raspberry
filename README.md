@@ -61,14 +61,21 @@ Link da vídeo aula: https://www.youtube.com/watch?v=dYCBHpzgOdw
 
 Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/ubuntu/02-UbuntuCore-20.md
 
-## **INSTALAÇÃO do BATOCERA V31 no Raspberry Pi 3 B v1.2**
+## **INSTALAÇÃO do BATOCERA V31 2021 no Raspberry Pi 3 B v1.2**
 
 Vídeo mostrando os procedimentos básicos para instalar e configurar a versão do Retrô Games Batocera v31 no Raspberry Pi 3
 
 O Batocera Linux é uma distribuição de jogos retro de código aberto e totalmente gratuita que pode ser copiada para um Pendrive USB ou um cartão microSD com o objetivo de transformar qualquer computador / nano computador em um console de jogo durante um jogo ou permanentemente. Batocera Linux não requer nenhuma modificação no seu computador.
 
-[![Batocera Pi 3](http://img.youtube.com/vi//0.jpg)]( "Batocera Pi 3")
+Site oficial do Batocera: https://batocera.org/download
+Suporte para as versões do Raspberry: Pi 3 B/B+
+Manual de configuração do Batocera: https://wiki.batocera.org/
+Controles/Joystick Suportados: https://wiki.batocera.org/supported_controllers
+Screen Scraper (informações das ROMS): https://www.screenscraper.fr/
 
-Link da vídeo aula: 
+
+[![Batocera Pi 3](http://img.youtube.com/vi/u_W9ttPnQpE/0.jpg)](https://www.youtube.com/watch?v=u_W9ttPnQpE "Batocera Pi 3")
+
+Link da vídeo aula: https://www.youtube.com/watch?v=u_W9ttPnQpE
 
 Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/batocera/01-Batocera-31.md

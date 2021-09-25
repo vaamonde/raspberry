@@ -12,7 +12,7 @@
 #Versão: 0.4<br>
 #Testado e homologado no Raspberry Pi 3 B e Batocera 31
 
-#Site Oficial do Batocera: https://batocera.org/
+#Site Oficial do Batocera: https://batocera.org/<br>
 #Changelog do Batocera: https://batocera.org/changelog
 
 #Instalação do Batocera 31 (18/06/2021) Raspberry Pi 3 B
@@ -48,7 +48,7 @@
 
 	_ Recomendado utilizar o Gerenciador de Unidade de Disco do Linux Mint (Menu, Discos)
 	_ Limpar todas as partições antes de gravar a imagem do Batocera 31 no microSD Card
-	_ OBS1: utilizar sempre microSD Card >= 16GB Classe 10 (recomendado microSD >=64GB)
+	_ OBS1: utilizar sempre microSD Card >= 32GB Classe 10 (recomendado microSD >=64GB)
 
 #04_ Gravando a imagem do Batocera 31 no microSD Card
 
@@ -60,7 +60,7 @@
 
 #05_ Ligando o Raspberry Pi 3 B com o microSD Card do Batocera 31
 	
-	_ OBS2: é recomendado ligar o Batocera 31 conectado com o Joystick ou Teclado e Rede
+	_ OBS2: é recomendado ligar o Batocera 31 conectado com o Joystick ou Teclado e Rede Cabeada
 	_ OBS3: no primeiro boot o sistema irá executar o redimensionamento das partições
 	_ OBS4: no Batocera 31 os controles/joystick são reconhecidos automaticamente
 
@@ -78,6 +78,6 @@
 	_ Partição SHARE: localização das ROMS (jogos), BIOS (PS2/PS3, etc...), Musicas, Temas, etc...
 	_ Na partição SHARE no diretório: roms e onde fica localizado todos os diretórios dos
 	_ consoles que o Batocera tem suporte, cada diretório tem um nome correspondente ao
-	_ seu console, exemplo: snes = Super Nintendo, psx = Playstation, n64 = Nintendo 64
+	_ seu console, exemplo: snes = Super Nintendo, psx = Playstation, n64 = Nintendo 64, etc...
 	_ OBS6: para copiar arquivos para a partição SHARE no Linux Mint e necessário acessar
 	_ como Root a partição (Botão direito do mouse na partição/diretório Abrir como root)
