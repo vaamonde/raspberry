@@ -15,23 +15,23 @@
 #Site Oficial do Batocera: https://batocera.org/<br>
 #Changelog do Batocera: https://batocera.org/changelog<br>
 #Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
-#Changelog do Linux Mint 20.2 Uma: https://linuxmint.com/rel_uma_cinnamon.php
-#Manual de configuração do Batocera: https://wiki.batocera.org/
-#Controles/Joystick Suportados: https://wiki.batocera.org/supported_controllers
-#Screen Scraper (informações das ROMS): https://www.screenscraper.fr/
-#Download Full-Pack BIOS Batocera V31: http://theminicaketv.free.fr/PACK-BIOS-BATOCERA.htm
+#Changelog do Linux Mint 20.2 Uma: https://linuxmint.com/rel_uma_cinnamon.php<br>
+#Manual de configuração do Batocera: https://wiki.batocera.org/<br>
+#Controles/Joystick Suportados: https://wiki.batocera.org/supported_controllers<br>
+#Screen Scraper (informações das ROMS): https://www.screenscraper.fr/<br>
+#Download Full-Pack BIOS Batocera V31: http://theminicaketv.free.fr/PACK-BIOS-BATOCERA.htm<br>
 #Download RetroPie Image: https://www.arcadepunks.com/pi-images-downloads-page/
 
-#Alternativas de Distribuições Retrô Games
-#RetroPie: https://retropie.org.uk/
-#Recalbox: https://www.recalbox.com/pt-br/
-#RetroArch: https://www.retroarch.com/
-#Lakka: https://www.lakka.tv/
+#Alternativas de Distribuições Retrô Games<br>
+#RetroPie: https://retropie.org.uk/<br>
+#Recalbox: https://www.recalbox.com/pt-br/<br>
+#RetroArch: https://www.retroarch.com/<br>
+#Lakka: https://www.lakka.tv/<br>
 RetroBat: https://www.retrobat.ovh/
 
-#Indicação de Joystick com Review do Professor Ramos (https://www.youtube.com/professorramos)
-#Joystick GameSir G4s PT-BR 🎮 Gamepad Bluetooth - 2.4G Wi-Fi - USB 🌟Análise - Review: https://www.youtube.com/watch?v=NejpVhA45xQ
-#Joystick para celular Android e PC Windows e Linux !!! Gamepad iPega 9099 Wolverine: https://www.youtube.com/watch?v=MIf5Q_R1vEI
+#Indicação de Joystick com Review do Professor Ramos (https://www.youtube.com/professorramos)<br>
+#Joystick GameSir G4s PT-BR 🎮 Gamepad Bluetooth - 2.4G Wi-Fi - USB 🌟Análise - Review: https://www.youtube.com/watch?v=NejpVhA45xQ<br>
+#Joystick para celular Android e PC Windows e Linux !!! Gamepad iPega 9099 Wolverine: https://www.youtube.com/watch?v=MIf5Q_R1vEI<br>
 #Agora eu vou dar Hadouken !!! Joystick Arcade iPega PG-9059 Fight | PC | Nintendo Switch | PS3 e 4: https://www.youtube.com/watch?v=OnaDImXmWz8
 
 #Instalação do Batocera v31 (18/06/2021) em Dual Boot com o Linux Mint 20.2 Uma (Desktop ou Notebook)
