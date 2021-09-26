@@ -1,12 +1,13 @@
 #!/bin/sh
-# Autor: Robson Vaamonde
+# Modificado por: Robson Vaamonde
+# Script original criado por: Batocera.org
 # Site: www.procedimentosemti.com.br
 # Facebook: facebook.com/ProcedimentosEmTI
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
 # Data de criação: 15/09/2021
-# Data de atualização: 21/09/2021
-# Versão: 0.02
+# Data de atualização: 26/09/2021
+# Versão: 0.03
 # Testado e homologado para a versão do Linux Mint 20.2 Uma e Batocera v31
 #
 # Partição 1: Tipo (type) = fat32, Nome (name) = BATOCERA
@@ -17,18 +18,21 @@
 # Aplicar as permissões: chmod a+x /​etc/​grub.d/​15_batocera
 # Atualizar o Grub: update-grub
 #
-# Criação da variável de localização da Partição do Batocera
+# Criação da variável de localização da Partição do Batocera Linux
 # opção do comando lsblk: --fs (Output  info  about  filesystems), --noheadings (Do not print a header line)
 # --pairs (Produce  output  in  the  form of key="value" pairs.), -o (output list)
 # opção do comando grep: -E (extended-regexp)
 # opção do comando sed: -e (script), s+ (separate)
 # opção do comando head: -1 (one line)
+# opção do redirecionar | (piper): Conecta a saída padrão com a entrada padrão de outro comando
+# opções de expressões regulares: ^ (Circunflexo) Casa o começo da linha, $ (Cifrão) Casa o fim da linha
+# \ (Escape) Escapa um meta, tirando seu poder
 BATOCERA_UUID=$(lsblk --fs --noheadings --pairs -o TYPE,LABEL,UUID |
 			grep -E '^TYPE="part" LABEL="BATOCERA" UUID="[^"]*"$' |
 			sed -e s+'^TYPE="part" LABEL="BATOCERA" UUID="\([^"]*\)"$'+'\1'+ | 
 			head -1)
 #
-# Teste lógico para a criação do Menu do Grub com a opção do Boot do Batocera
+# Teste lógico para a criação do Menu do Grub com a opção do Boot do Batocera Linux
 # opção do comando test: -n (string)
 if test -n "${BATOCERA_UUID}"; then
 	echo "Imagem do Batocera encontrada em ${BATOCERA_UUID}" >&2
