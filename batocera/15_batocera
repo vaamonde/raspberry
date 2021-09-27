@@ -15,8 +15,8 @@
 # Fazer o download do arquivo: boot.tar.xz e descompactá-lo na partição BATOCERA.
 # Link do download do arquivo boot.tar.xz: http://batocera.org/upgrades/x86_64/stable/last/boot.tar.xz
 # Copiar esse script para o diretório: /​etc/​grub.d/​15_batocera
-# Aplicar as permissões: chmod a+x /​etc/​grub.d/​15_batocera
-# Atualizar o Grub: update-grub
+# Aplicar as permissões: sudo chmod a+x /​etc/​grub.d/​15_batocera
+# Atualizar o Grub: sudo update-grub
 #
 # Criação da variável de localização da Partição do Batocera Linux
 # opção do comando lsblk: --fs (Output  info  about  filesystems), --noheadings (Do not print a header line)

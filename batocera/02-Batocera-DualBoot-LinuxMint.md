@@ -8,10 +8,11 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 26/09/2021<br>
-#Data de atualização: 26/09/2021<br>
-#Versão: 0.1<br>
+#Data de atualização: 27/09/2021<br>
+#Versão: 0.2<br>
 #Testado e homologado no Linux Mint 20.2 Uma e Batocera v31
 
+#Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
 #Site Oficial do Batocera: https://batocera.org/<br>
 #Changelog do Batocera: https://batocera.org/changelog<br>
 #Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
@@ -45,15 +46,44 @@ RetroBat: https://www.retrobat.ovh/
 
 #02_ Criação das Partições do Batocera Linux
 
+	_ Bootar o sistema com o Pen Driver do Linux Mint 20.2 Uma
+	_ Executar o aplicativo Gparted: Menu, Share, Gparted
+	_ Nesse exemplo estou utilizando um Hard Disk NVMe de 512GB em: /dev/nvme0 (476,94GB)
+	_ Botão direito na partição: /dev/nvme0n1p5, selecionar: Resize/Mode
+	_ Diminuir a partição para: 256GB (256621MB) - <Resize/Move>
+	_ No espaço não alocado (unallocated), clicar com o botão direito na partição e selecionar: New
+	_ Criar uma partição de: 10GB (10825MB), File system: Fat32, Label: BATOCERA <Add>
+	_ No espaço não alocado (unallocated), clicar com o botão direito na partição e selecionar: New
+	_ Criar uma partição de: Total do Disco (130424), File system: Ext4, Label: SHARE <Add>
+	_ Clicar na opção: Apply All Operations, <Apply> (esse processo demora um pouco) <Close>
+
 #03_ Instalação do Batocera Linux na partição Batocera
+
+	_ Verificando as partições criadas: Menu, Pesquisa, Disco
+	_ Download do arquivo: boot.tar.xz, descompactá-lo e mover todo os arquivo para a partição BATOCERA
+	_ Link do download: http://batocera.org/upgrades/x86_64/stable/last/boot.tar.xz
+	_ Botão direito no arquivo: boot.tar.xz, selecionar: Extrair Aqui
+	_ Acessar o diretório boot, copiar/colar todos os arquivos na raiz da partição BATOCERA
+	_ OBS1: não é necessário configurar a partição SHARE, ela será configurada automaticamente
+	_ no primeiro Boot do Batocera
 
 #04_ Configuração do Grub para suportar o Dual Boot do Batocera Linux
 
+	_ Fazer o download do projeto do Github: https://github.com/vaamonde/raspberry
+	_ Descompactar a pasta do download do projeto do Github
+	_ Abrir a pasta: raspberry-man/batocera como Root: Botão direito do Mouse, Abrir como Root
+	_ Copiar o arquivo: 15_batocera para: /​etc/​grub.d/​15_batocera
+	_ Acessar o Terminal e digitar os comandos:
+	_	sudo chmod a+x /​etc/​grub.d/​15_batocera <Enter>
+	_	sudo vim /etc/default/grub
+	_		GRUB_TIMEOUT_STYLE=menu
+	_		GRUB_TIMEOUT=10
+	_	sudo update-grub <Enter>
+
 #05_ Ligando o Linux Mint 20.2 com o Batocera Linux v31 em Dual Boot
 	
-	_ OBS1: 
-	_ OBS2: é recomendado ligar o Batocera 31 conectado com o Joystick ou Teclado e Rede Cabeada
-	_ OBS3: no primeiro boot o sistema irá executar o redimensionamento das partições
+	_ OBS2: é recomendado ligar o Batocera 31 conectado com Teclado, Joystick e Rede Cabeada
+	_ OBS3: no primeiro boot o sistema irá executar a configuração das partições
 	_ OBS4: no Batocera 31 os controles/joystick são reconhecidos automaticamente
 
 #06_ Configurações básicas do Batocera 31
