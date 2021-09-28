@@ -30,6 +30,7 @@
 	_ Screen Scraper (informações das ROMS): https://www.screenscraper.fr/
 
 	_ Download Full-Pack BIOS Batocera V31: http://theminicaketv.free.fr/PACK-BIOS-BATOCERA.htm
+	_ Download BIOS Batocera V310: https://archive.org/details/complete-bios-collection-batocera-30 
 	_ Download RetroPie Image: https://www.arcadepunks.com/pi-images-downloads-page/
 
 	_ Alternativas de Distribuições Retrô Games

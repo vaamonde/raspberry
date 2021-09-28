@@ -21,6 +21,7 @@
 #Controles/Joystick Suportados: https://wiki.batocera.org/supported_controllers<br>
 #Screen Scraper (informações das ROMS): https://www.screenscraper.fr/<br>
 #Download Full-Pack BIOS Batocera V31: http://theminicaketv.free.fr/PACK-BIOS-BATOCERA.htm<br>
+#Download BIOS Batocera V310: https://archive.org/details/complete-bios-collection-batocera-30<br>
 #Download RetroPie Image: https://www.arcadepunks.com/pi-images-downloads-page/
 
 #Alternativas de Distribuições Retrô Games<br>

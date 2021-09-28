@@ -73,7 +73,6 @@ Manual de configuração do Batocera: https://wiki.batocera.org/
 Controles/Joystick Suportados: https://wiki.batocera.org/supported_controllers
 Screen Scraper (informações das ROMS): https://www.screenscraper.fr/
 
-
 [![Batocera Pi 3](http://img.youtube.com/vi/u_W9ttPnQpE/0.jpg)](https://www.youtube.com/watch?v=u_W9ttPnQpE "Batocera Pi 3")
 
 Link da vídeo aula: https://www.youtube.com/watch?v=u_W9ttPnQpE
