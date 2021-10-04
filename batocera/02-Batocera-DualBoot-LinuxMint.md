@@ -8,9 +8,9 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 26/09/2021<br>
-#Data de atualização: 27/09/2021<br>
-#Versão: 0.2<br>
-#Testado e homologado no Linux Mint 20.2 Uma e Batocera v31
+#Data de atualização: 04/10/2021<br>
+#Versão: 0.3<br>
+#Testado e homologado no Linux Mint 20.2 Uma e Batocera v32
 
 #Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
 #Site Oficial do Batocera: https://batocera.org/<br>
@@ -20,8 +20,9 @@
 #Manual de configuração do Batocera: https://wiki.batocera.org/<br>
 #Controles/Joystick Suportados: https://wiki.batocera.org/supported_controllers<br>
 #Screen Scraper (informações das ROMS): https://www.screenscraper.fr/<br>
-#Download Full-Pack BIOS Batocera V31: http://theminicaketv.free.fr/PACK-BIOS-BATOCERA.htm<br>
-#Download BIOS Batocera V310: https://archive.org/details/complete-bios-collection-batocera-30<br>
+#Download Full-Pack BIOS Batocera v31: http://theminicaketv.free.fr/PACK-BIOS-BATOCERA.htm<br>
+#Download BIOS Batocera v30: https://archive.org/details/complete-bios-collection-batocera-30<br>
+#Download BIOS Batocera v31: https://archive.org/details/bios-batocera-v-31<br>
 #Download RetroPie Image: https://www.arcadepunks.com/pi-images-downloads-page/
 
 #Alternativas de Distribuições Retrô Games<br>
@@ -36,7 +37,7 @@ RetroBat: https://www.retrobat.ovh/
 #Joystick para celular Android e PC Windows e Linux !!! Gamepad iPega 9099 Wolverine: https://www.youtube.com/watch?v=MIf5Q_R1vEI<br>
 #Agora eu vou dar Hadouken !!! Joystick Arcade iPega PG-9059 Fight | PC | Nintendo Switch | PS3 e 4: https://www.youtube.com/watch?v=OnaDImXmWz8
 
-#Instalação do Batocera v31 (18/06/2021) em Dual Boot com o Linux Mint 20.2 Uma (Desktop ou Notebook)
+#Instalação do Batocera v32 (30/09/2021) em Dual Boot com o Linux Mint 20.2 Uma (Desktop ou Notebook)
 
 #01_ Reparticionamento do Linux Mint utilizando o Gparted
 
@@ -61,7 +62,7 @@ RetroBat: https://www.retrobat.ovh/
 #03_ Instalação do Batocera Linux na partição Batocera
 
 	_ Verificando as partições criadas: Menu, Pesquisa, Disco
-	_ Download do arquivo: boot.tar.xz, descompactá-lo e mover todo os arquivo para a partição BATOCERA
+	_ Download do arquivo: boot.tar.xz, descompactá-lo e mover todos os arquivos para a partição BATOCERA
 	_ Link do download: http://batocera.org/upgrades/x86_64/stable/last/boot.tar.xz
 	_ Botão direito no arquivo: boot.tar.xz, selecionar: Extrair Aqui
 	_ Acessar o diretório boot, copiar/colar todos os arquivos na raiz da partição BATOCERA
@@ -81,13 +82,13 @@ RetroBat: https://www.retrobat.ovh/
 	_		GRUB_TIMEOUT=10
 	_	sudo update-grub <Enter>
 
-#05_ Ligando o Linux Mint 20.2 com o Batocera Linux v31 em Dual Boot
+#05_ Ligando o Linux Mint 20.2 com o Batocera Linux v32 em Dual Boot
 	
-	_ OBS2: é recomendado ligar o Batocera 31 conectado com Teclado, Joystick e Rede Cabeada
+	_ OBS2: é recomendado ligar o Batocera 32 conectado com Teclado, Joystick e Rede Cabeada
 	_ OBS3: no primeiro boot o sistema irá executar a configuração das partições
-	_ OBS4: no Batocera 31 os controles/joystick são reconhecidos automaticamente
+	_ OBS4: no Batocera 32 os controles/joystick são reconhecidos automaticamente
 
-#06_ Configurações básicas do Batocera 31
+#06_ Configurações básicas do Batocera v32
 
 	_ OBS5: por padrão do Batocera vem configurado na linguagem Americano/Inglês
 	_ Alterar a linguagem: Start (Menu), System Settings, Language: Portugues Brasileiro
@@ -95,7 +96,7 @@ RetroBat: https://www.retrobat.ovh/
 	_ Atualizando a lista de jogos: Start (Menu), Opções de Jogos, Atualizar Lista de Jogos, Sim
 	_ Para sair de um jogo pressiona: Start + Select
 
-#07_ Partições do Batocera 31
+#07_ Partições do Batocera v32
 
 	_ Partição BATOCERA: sistema de boot e arquivos de inicialização/binários do Batocera
 	_ Partição SHARE: localização das ROMS (jogos), BIOS (PS2/PS3, etc...), Musicas, Temas, etc...
