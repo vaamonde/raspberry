@@ -126,3 +126,23 @@
 	_		mVU Flag Hack: ON
 	_		MTUV (Multi-Threaded microVU1): ON
 	_	System, Exit
+	_ Atualização das informações das ROMS (Screen Scraper): fazer o cadastro no site: https://www.screenscraper.fr/
+	_	Acessar o Menu de Jogos, Menu (Start), Scrape
+	_		Banco de Dados: Screenscraper
+	_		Fonte da Imagem: Screenshot
+	_		Fonte da Caixa: Caixa 2D
+	_		Fonte do Logotipo: Logotipo
+	_		Obter Avaliações: ON
+	_		Obter Vídeos: ON
+	_		Obter Fanart: ON
+	_		Obter parte de trás da Caixa: ON
+	_		Obter Mapa: ON
+	_		Obter Manual: ON
+	_		Obter Configuração do Controle e Teclado: ON
+	_		Usuário: usuário_screenscraper
+	_		Senha: senha_screenscraper
+	_	Iniciar Procura
+	_		Filtro: Apenas Mídias Ausentes
+	_		Sistema: Número de Intens Selecionados
+	_	Iniciar (Aguardar esse processo demora dependendo da quantidade de jogos para obter as informações)
+	_	Voltar, Opções de Jogos, Atualizar Listas de Jogos, Sim 

@@ -23,7 +23,7 @@ Link da Playlist: https://www.youtube.com/playlist?list=PLozhsZB1lLUN-20sYOTKgsr
 
 ![Raspberry Pi 3](pi3.png)
 
-## **INSTALAÇÃO do UBUNTU SERVER 20.04.x LTS ARM x64 Bits no Raspberry Pi 3 B v1.2**
+## **INSTALAÇÃO do UBUNTU SERVER 20.04.x LTS ARM x64 Bits no Raspberry Pi 3 B v1.2 🐧**
 
 OBSERVAÇÃO IMPORTANTE: NO VÍDEO AOS: 02:13 EU FALO QUE ESSE MODELO NÃO TEM PLACA DE REDE SEM-FIO (WI-FI/WIRELESS) - ESTÁ ERRADO!!! ELE TEM O CHIP: BROADCOM BCM43438 QUE FORNECE WI-FI E BLUETOOTH INTEGRADO, DESCONSIDERAR ESSA FALA (CONFUNDIR COM OUTRO MODELO). DOCUMENTAÇÃO ATUALIZADA NO GITHUB.
 
@@ -42,7 +42,7 @@ Link da vídeo aula: https://www.youtube.com/watch?v=1xPJ9aXcmvc
 
 Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/ubuntu/01-UbuntuServer-2004.md
 
-## **INSTALAÇÃO do UBUNTU CORE 20 ARM x64 Bits no Raspberry Pi 3 B v1.2**
+## **INSTALAÇÃO do UBUNTU CORE 20 ARM x64 Bits no Raspberry Pi 3 B v1.2 🐧**
 
 Vídeo mostrando os procedimentos básicos para instalar a versão do Ubuntu Core 20 ARM no Raspberry Pi 3
 
@@ -61,7 +61,7 @@ Link da vídeo aula: https://www.youtube.com/watch?v=dYCBHpzgOdw
 
 Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/ubuntu/02-UbuntuCore-20.md
 
-## **INSTALAÇÃO do BATOCERA V31 2021 no Raspberry Pi 3 B v1.2**
+## **🕹 INSTALAÇÃO do BATOCERA V31 2021 no Raspberry Pi 3 B v1.2 🐧**
 
 Vídeo mostrando os procedimentos básicos para instalar e configurar a versão do Retrô Games Batocera v31 no Raspberry Pi 3
 
@@ -78,3 +78,34 @@ Screen Scraper (informações das ROMS): https://www.screenscraper.fr/
 Link da vídeo aula: https://www.youtube.com/watch?v=u_W9ttPnQpE
 
 Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/batocera/01-Batocera-31.md
+
+## **🕹 Instalação em DUAL BOOT do BATOCERA v32 2021 com o LINUX MINT no Desktop Gamer 🐧**
+
+Vídeo mostrando os procedimentos básicos para instalar e configurar a versão do Retrô Games Batocera v32 em Dual Boot com o Linux Mint 20.2 Uma no Desktop PC Gamer
+
+O Batocera Linux é uma distribuição de jogos retro de código aberto e totalmente gratuita que pode ser copiada para um Pendrive USB ou um cartão microSD com o objetivo de transformar qualquer computador / nano computador em um console de jogo durante um jogo ou permanentemente. Batocera Linux não requer nenhuma modificação no seu computador.
+
+Retrogaming (em português, jogos retro) é um movimento relacionado com o coleccionar ou jogar, videojogos do passado, normalmente derivados de sistemas antigos, tanto de computadores e consolas, como de máquinas de arcade. Estes jogos são executados no hardware original, no hardware moderno ou via portes e compilações.
+
+Alternativas de Distribuições Retrô Games
+RetroPie: https://retropie.org.uk/
+Recalbox: https://www.recalbox.com/pt-br/
+RetroArch: https://www.retroarch.com/
+Lakka: https://www.lakka.tv/
+RetroBat: https://www.retrobat.ovh/
+
+Apresentação do Hardware de PC Gamer
+Apresentação do Desktop Gamer Xeon E5-2678 V3 https://www.youtube.com/watch?v=vS3SVAzp3QU
+Instalação do Linux Mint 20.2 Uma no Desktop Gamer Xeon E5-2678 V3 https://www.youtube.com/watch?v=BOgTCW2EcBI
+Configuração do Linux Mint 20.2 Uma no Desktop Gamer Xeon E5-2678 V3 https://www.youtube.com/watch?v=sXDqOccf1qw
+
+Indicação de Joystick com Review do Professor Ramos (https://www.youtube.com/professorramos)
+Joystick GameSir G4s PT-BR 🎮 Gamepad Bluetooth - 2.4G Wi-Fi - USB 🌟Análise - Review: https://www.youtube.com/watch?v=NejpVhA45xQ
+Joystick para celular Android e PC Windows e Linux !!! Gamepad iPega 9099 Wolverine: https://www.youtube.com/watch?v=MIf5Q_R1vEI
+Agora eu vou dar Hadouken !!! Joystick Arcade iPega PG-9059 Fight | PC | Nintendo Switch | PS3 e 4: https://www.youtube.com/watch?v=OnaDImXmWz8
+
+[![Dual Boot Batocera](http://img.youtube.com/vi/sxePFmADElo/0.jpg)](https://www.youtube.com/watch?v=sxePFmADElo "Dual Boot Batocera")
+
+Link da vídeo aula: https://www.youtube.com/watch?v=sxePFmADElo
+
+Link do script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/batocera/02-Batocera-DualBoot-LinuxMint.md
