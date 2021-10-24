@@ -8,8 +8,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 17/09/2021<br>
-#Data de atualização: 06/10/2021<br>
-#Versão: 0.5<br>
+#Data de atualização: 10/10/2021<br>
+#Versão: 0.6<br>
 #Testado e homologado no Raspberry Pi 3 B e Batocera v31
 
 #Site Oficial do Batocera: https://batocera.org/<br>
@@ -20,7 +20,8 @@
 #Download Full-Pack BIOS Batocera v31: http://theminicaketv.free.fr/PACK-BIOS-BATOCERA.htm<br>
 #Download BIOS Batocera v30: https://archive.org/details/complete-bios-collection-batocera-30<br>
 #Download BIOS Batocera v31: https://archive.org/details/bios-batocera-v-31<br>
-#Download RetroPie Image: https://www.arcadepunks.com/pi-images-downloads-page/
+#Download RetroPie Image: https://www.arcadepunks.com/pi-images-downloads-page/<br>
+#Mirror Batocera Old Version: https://mirrors.o2switch.fr/batocera/rpi3/stable/last/archives/
 
 #Alternativas de Distribuições Retrô Games<br>
 #RetroPie: https://retropie.org.uk/<br>

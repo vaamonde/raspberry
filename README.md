@@ -77,7 +77,7 @@ Screen Scraper (informações das ROMS): https://www.screenscraper.fr/
 
 Link da vídeo aula: https://www.youtube.com/watch?v=u_W9ttPnQpE
 
-Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/batocera/01-Batocera-31.md
+Script utilizado nesse vídeo: https://github.com/vaamonde/raspberry/blob/main/batocera/01-Batocera-31-PI.md
 
 ## **🕹 Instalação em DUAL BOOT do BATOCERA v32 2021 com o LINUX MINT no Desktop Gamer 🐧**
 
