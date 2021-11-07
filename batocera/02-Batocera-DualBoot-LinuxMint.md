@@ -8,8 +8,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 26/09/2021<br>
-#Data de atualização: 24/10/2021<br>
-#Versão: 0.6<br>
+#Data de atualização: 07/11/2021<br>
+#Versão: 0.7<br>
 #Testado e homologado no Linux Mint 20.2 Uma e Batocera v32
 
 #Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
@@ -78,15 +78,19 @@
 
 	_ Fazer o download do projeto do Github: https://github.com/vaamonde/raspberry opção: Code, Download Zip;
 	_ Descompactar o arquivo raspberyy-main.zip, botão direito do mouse, Extrair Aqui;
-	_ Abrir a pasta raspberry-man/batocera como Root: Botão direito do Mouse, Abrir como Root;
+	_ Acessar a pasta raspberry-man/batocera como Root: Botão direito do Mouse, Abrir como Root;
 	_ Copiar o arquivo: 15_batocera para: /​etc/​grub.d/​15_batocera;
 	_ Acessar o Terminal como root: Botão direito do Mouse, Abrir no Terminal, digitar os comandos;
+	_	#Alterando as permissões do arquivo: 15_batocera para Todos (a=All) Executar (x=Exec) 
 	_	chmod a+x ​15_batocera <Enter>;
+	_	#Instalando o editor de Texto VIM
 	_	apt install vim <Enter>;
 	_	OBS4: utilizar o editor de Texto VIM para editar o arquivo do Grub;
 	_	vim /etc/default/grub <Enter>;
-	_		GRUB_TIMEOUT_STYLE=menu
-	_		GRUB_TIMEOUT=10
+	_		#Pressionar INSERT para entrar no modo de Edição, alterar as linhas abaixo:
+	_			GRUB_TIMEOUT_STYLE=menu
+	_			GRUB_TIMEOUT=10
+	_		#Pressionar ESC para sair do modo de Edição, salvar e sair com: Shift :x <Enter>
 	_	update-grub <Enter>.
 
 #05_ Ligando o Linux Mint 20.2 com o Batocera Linux v32 em Dual Boot
@@ -116,7 +120,8 @@
 #08_ Dicas de configurações dos emuladores
 
 	_ Nintendo 64: emulador que funciona perfeitamente os jogos: LIBRETRO / PARALLEL N64;
-	_	Acessar Nintendo 64, Opções (Select), Opções Avançadas do Sistema, Emulador: LIBRETRO / PARALLEL N64.
+	_	Acessar Nintendo 64, Opções (Select), Opções Avançadas do Sistema, Emulador: LIBRETRO/PARALLEL N64.
+	_
 	_ Playstation 2: configuração do recurso de Speedhacks do PCX2-CONFIG;
 	_	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, pcsx2-config;
 	_	Config, Video (GS), Core GS Settings, Speedhacks;
@@ -129,6 +134,7 @@
 	_		mVU Flag Hack: ON
 	_		MTUV (Multi-Threaded microVU1): ON
 	_	System, Exit
+	_
 	_ Atualização das informações das ROMS (Screen Scraper): fazer o cadastro no site: https://www.screenscraper.fr/;
 	_	Acessar o Menu de Jogos, Menu (Start), Scrape;
 	_		Banco de Dados: Screenscraper
