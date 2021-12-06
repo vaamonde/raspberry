@@ -172,4 +172,16 @@
 	_		Sistema: Número de Intens Selecionados
 	_	Iniciar (Aguardar esse processo demora um pouco dependendo da quantidade de jogos para obter as informações);
 	_	Voltar, Opções de Jogos, Atualizar Listas de Jogos, Sim.
+	_ Steam: instalação do cliente no Batocera
+	_ 	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, Flatpak-Config
+	_	Em buscar digite: steam <Enter>
+	_	Selecione: Steam e clique em: <Instalar>, depois: <Sim>
+	_	Selecione: Steam Link e clique em: <Instalar>, depois: <Sim>
+	_	Feche o aplicativo: Flatpak-Config em: <Close>
+	_	Saia do gerenciador de Arquivos, clique em: Arquivo e selecione: Fechar Janela
+	_	Acessar o Menu de Jogos, Menu (Start) e selecione: Opções de Jogos;
+	_	Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
+	_	Acessar as opções de: Ports e clicar em: Steam (Flatpak)
+	_	Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
+	_	Após a atualização do Steam, se autenticar com sua conta e senha
 	
