@@ -8,8 +8,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 26/09/2021<br>
-#Data de atualização: 02/12/2021<br>
-#Versão: 0.8<br>
+#Data de atualização: 06/12/2021<br>
+#Versão: 0.9<br>
 #Testado e homologado no Linux Mint 20.2 Uma e Batocera v32
 
 #Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
@@ -35,6 +35,13 @@
 #Lakka: https://www.lakka.tv/<br>
 #RetroBat: https://www.retrobat.ovh/<br>
 #EmuELEC: https://github.com/EmuELEC/EmuELEC/releases
+
+#Sites para baixar ROMS
+#Emulator Games: https://www.emulatorgames.net/
+#ROMS Games: https://www.romsgames.net/roms/
+#ROMS Mania: https://romsmania.games/
+#ROMS Download: https://roms-download.com/
+#ROMS Download: https://romsdownload.net/
 
 #Apresentação do Hardware utilizado no Curso de Hypervisor (Virtualização) Open Source: https://www.youtube.com/watch?v=vS3SVAzp3QU
 
@@ -84,11 +91,11 @@
 	_ OBS4: você também pode clonar o projeto com o comando: git clone https://github.com/vaamonde/raspberry
 	_ Descompactar o arquivo raspberyy-main.zip, botão direito do mouse no arquivo e selecionar: Extrair Aqui;
 	_ Acessar a pasta raspberry-man/batocera como Root: Botão direito do Mouse, selecionar: Abrir como Root;
-	_ Selecionar e copiar o arquivo: 15_batocera para o diretório: /​etc/​grub.d/​15_batocera;
+	_ Selecionar e copiar o arquivo: 15_batocera para o diretório: /etc/grub.d/15_batocera;
 	_ No diretório /etc/grub.d/, acessar o Terminal como Root: Botão direito do Mouse, selecionar: Abrir no Terminal;
 	_ Digitar os seguintes comandos;
 	_	#Alterando as permissões do arquivo: 15_batocera para Todos (a=All) Executar (x=Exec) 
-	_	chmod a+x ​15_batocera <Enter>;
+	_	chmod a+x 15_batocera <Enter>;
 	_	#Instalando o editor de Texto VIM
 	_	apt install vim <Enter>;
 	_	OBS5: utilizar o editor de Texto VIM para editar o arquivo do Grub;
