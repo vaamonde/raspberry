@@ -44,12 +44,16 @@
 #ROMS Download: https://romsdownload.net/<br>
 #ROMS Fun: https://romsfun.com/
 
-#Apresentação do Hardware utilizado no Curso de Hypervisor (Virtualização) Open Source: https://www.youtube.com/watch?v=vS3SVAzp3QU
+#Apresentação do Hardware utilizado no Curso de Hypervisor (Virtualização) Open Source:<br>
+https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 #Indicação de Joystick com Review do Professor Ramos (https://www.youtube.com/professorramos)<br>
-#Joystick GameSir G4s PT-BR 🎮 Gamepad Bluetooth - 2.4G Wi-Fi - USB 🌟Análise - Review: https://www.youtube.com/watch?v=NejpVhA45xQ<br>
-#Joystick para celular Android e PC Windows e Linux !!! Gamepad iPega 9099 Wolverine: https://www.youtube.com/watch?v=MIf5Q_R1vEI<br>
-#Agora eu vou dar Hadouken !!! Joystick Arcade iPega PG-9059 Fight | PC | Nintendo Switch | PS3 e 4: https://www.youtube.com/watch?v=OnaDImXmWz8
+#Joystick GameSir G4s PT-BR 🎮 Gamepad Bluetooth - 2.4G Wi-Fi - USB 🌟Análise - Review:<br> 
+#Link: https://www.youtube.com/watch?v=NejpVhA45xQ<br>
+#Joystick para celular Android e PC Windows e Linux !!! Gamepad iPega 9099 Wolverine:<br> 
+#Link: https://www.youtube.com/watch?v=MIf5Q_R1vEI<br>
+#Agora eu vou dar Hadouken !!! Joystick Arcade iPega PG-9059 Fight | PC | Nintendo Switch | PS3 e 4:<br> 
+#https://www.youtube.com/watch?v=OnaDImXmWz8
 
 #Instalação do Batocera v32 (30/09/2021) em Dual Boot com o Linux Mint 20.2 Uma (Desktop ou Notebook)
 
