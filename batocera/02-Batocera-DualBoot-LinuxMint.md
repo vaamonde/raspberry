@@ -188,8 +188,11 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	_	Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço) e selecionar: Opções de Jogos;
 	_	Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
 	_	Acessar as opções de: Ports e clicar em: Steam (Flatpak)
+	_	OBS11: na primeira vez que você acessar o Steam ele não irá executar o procedimento de atualizar o cliente,
+	_	você precisa sair do Steam, depois voltar novamente, na segunda vez que você acessar o Steam ele vai começcar
+	_	a atualizar o sistema e instalar o cliente.
 	_	Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
-	_	Após a atualização do Steam, se autenticar com sua conta e senha
+	_	Após a atualização do Steam, se autenticar com sua conta e senha.
 	_
 	_ Firefox: instalação do navegador Mozilla Firefox no Batocera
 	_ 	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, Flatpak-Config
