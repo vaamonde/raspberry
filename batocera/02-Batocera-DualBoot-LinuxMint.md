@@ -8,8 +8,8 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 26/09/2021<br>
-#Data de atualização: 06/12/2021<br>
-#Versão: 0.9<br>
+#Data de atualização: 07/12/2021<br>
+#Versão: 0.10<br>
 #Testado e homologado no Linux Mint 20.2 Uma e Batocera v32
 
 #Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
@@ -42,6 +42,7 @@
 #ROMS Mania: https://romsmania.games/
 #ROMS Download: https://roms-download.com/
 #ROMS Download: https://romsdownload.net/
+#ROMS Fun: https://romsfun.com/
 
 #Apresentação do Hardware utilizado no Curso de Hypervisor (Virtualização) Open Source: https://www.youtube.com/watch?v=vS3SVAzp3QU
 
@@ -172,14 +173,15 @@
 	_		Sistema: Número de Intens Selecionados
 	_	Iniciar (Aguardar esse processo demora um pouco dependendo da quantidade de jogos para obter as informações);
 	_	Voltar, Opções de Jogos, Atualizar Listas de Jogos, Sim.
+	_
 	_ Steam: instalação do cliente no Batocera
 	_ 	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, Flatpak-Config
-	_	Em buscar digite: steam <Enter>
+	_	Em: buscar digite: steam <Enter>
 	_	Selecione: Steam e clique em: <Instalar>, depois: <Sim>
 	_	Selecione: Steam Link e clique em: <Instalar>, depois: <Sim>
 	_	Feche o aplicativo: Flatpak-Config em: <Close>
 	_	Saia do gerenciador de Arquivos, clique em: Arquivo e selecione: Fechar Janela
-	_	Acessar o Menu de Jogos, Menu (Start) e selecione: Opções de Jogos;
+	_	Acessar o Menu de Jogos, Menu (Start) e selecionar: Opções de Jogos;
 	_	Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
 	_	Acessar as opções de: Ports e clicar em: Steam (Flatpak)
 	_	Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
