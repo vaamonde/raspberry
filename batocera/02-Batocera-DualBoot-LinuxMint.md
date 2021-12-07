@@ -36,12 +36,12 @@
 #RetroBat: https://www.retrobat.ovh/<br>
 #EmuELEC: https://github.com/EmuELEC/EmuELEC/releases
 
-#Sites para baixar ROMS
-#Emulator Games: https://www.emulatorgames.net/
-#ROMS Games: https://www.romsgames.net/roms/
-#ROMS Mania: https://romsmania.games/
-#ROMS Download: https://roms-download.com/
-#ROMS Download: https://romsdownload.net/
+#Sites para baixar ROMS<br>
+#Emulator Games: https://www.emulatorgames.net/<br>
+#ROMS Games: https://www.romsgames.net/roms/<br>
+#ROMS Mania: https://romsmania.games/<br>
+#ROMS Download: https://roms-download.com/<br>
+#ROMS Download: https://romsdownload.net/<br>
 #ROMS Fun: https://romsfun.com/
 
 #Apresentação do Hardware utilizado no Curso de Hypervisor (Virtualização) Open Source: https://www.youtube.com/watch?v=vS3SVAzp3QU
