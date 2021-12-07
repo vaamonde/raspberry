@@ -124,9 +124,9 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 #06_ Configurações básicas do Batocera v32
 
 	_ OBS9: por padrão o Batocera vem configurado na linguagem Americano/Inglês;
-	_ Alterar a linguagem: Start (Menu), System Settings, Language: Portugues Brasileiro;
+	_ Alterar a linguagem: Start (Menu ou Barra de Espaço), System Settings, Language: Portugues Brasileiro;
 	_ OBS10: na versão v32 do Batocera não é necessário reinicializar o sistema;
-	_ Atualizando a lista de jogos: Start (Menu), Opções de Jogos, Atualizar Lista de Jogos, Sim;
+	_ Atualizando a lista de jogos: Start (Menu ou Barra de Espaço), Opções de Jogos, Atualizar Lista de Jogos, Sim;
 	_ Para sair de um jogo você pressiona: Start + Select.
 
 #07_ Partições do Batocera v32
@@ -142,7 +142,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 #08_ Dicas de configurações dos emuladores do Batocera V32
 
 	_ Nintendo 64: emulador que funciona perfeitamente os jogos: LIBRETRO / PARALLEL N64;
-	_	Acessar Nintendo 64, Opções (Select), Opções Avançadas do Sistema, Emulador: LIBRETRO/PARALLEL N64.
+	_	Acessar Nintendo 64, Opções (Select ou Backspace), Opções Avançadas do Sistema, Emulador: LIBRETRO/PARALLEL N64.
 	_
 	_ Playstation 2: configuração do recurso de Speedhacks do PCX2-CONFIG;
 	_	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, pcsx2-config;
@@ -158,7 +158,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	_	System, Exit
 	_
 	_ Atualização das informações das ROMS (Screen Scraper): fazer o cadastro no site: https://www.screenscraper.fr/;
-	_	Acessar o Menu de Jogos, Menu (Start), Scrape;
+	_	Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço), Scrape;
 	_		Banco de Dados: Screenscraper
 	_		Fonte da Imagem: Screenshot
 	_		Fonte da Caixa: Caixa 2D
@@ -185,7 +185,19 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	_	Selecione: Steam Link e clique em: <Instalar>, depois: <Sim>
 	_	Feche o aplicativo: Flatpak-Config em: <Close>
 	_	Saia do gerenciador de Arquivos, clique em: Arquivo e selecione: Fechar Janela
-	_	Acessar o Menu de Jogos, Menu (Start) e selecionar: Opções de Jogos;
+	_	Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço) e selecionar: Opções de Jogos;
+	_	Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
+	_	Acessar as opções de: Ports e clicar em: Steam (Flatpak)
+	_	Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
+	_	Após a atualização do Steam, se autenticar com sua conta e senha
+	_
+	_ Firefox: instalação do navegador Mozilla Firefox no Batocera
+	_ 	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, Flatpak-Config
+	_	Em: buscar digite: firefox <Enter>
+	_	Selecione: Firefox e clique em: <Instalar>, depois: <Sim>
+	_	Feche o aplicativo: Flatpak-Config em: <Close>
+	_	Saia do gerenciador de Arquivos, clique em: Arquivo e selecione: Fechar Janela
+	_	Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço) e selecionar: Opções de Jogos;
 	_	Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
 	_	Acessar as opções de: Ports e clicar em: Steam (Flatpak)
 	_	Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
