@@ -8,7 +8,7 @@
 # Data de criação: 15/09/2021
 # Data de atualização: 28/09/2021
 # Versão: 0.04
-# Testado e homologado para a versão do Linux Mint 20.2 Uma e Batocera v31
+# Testado e homologado para a versão do Linux Mint 20.2 Uma, 20.3 Una e Batocera v34
 #
 # Partição 1: Tipo (type) = fat32, Nome (name) = BATOCERA
 # Partição 2: Tipo (type) = ext4, Nome (name) = SHARE, deve ser criada logo após a partição BATOCERA.

@@ -8,9 +8,9 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 17/09/2021<br>
-#Data de atualização: 10/10/2021<br>
-#Versão: 0.6<br>
-#Testado e homologado no Raspberry Pi 3 B e Batocera v31
+#Data de atualização: 18/08/2022<br>
+#Versão: 0.07<br>
+#Testado e homologado no Raspberry Pi 3 B e Batocera v34
 
 #Site Oficial do Batocera: https://batocera.org/<br>
 #Changelog do Batocera: https://batocera.org/changelog<br>
@@ -20,6 +20,9 @@
 #Download Full-Pack BIOS Batocera v31: http://theminicaketv.free.fr/PACK-BIOS-BATOCERA.htm<br>
 #Download BIOS Batocera v30: https://archive.org/details/complete-bios-collection-batocera-30<br>
 #Download BIOS Batocera v31: https://archive.org/details/bios-batocera-v-31<br>
+#Download BIOS Batocera v32: https://archive.org/details/bios-batocera-v-32<br>
+#Download BIOS Batocera v33: https://archive.org/details/batocera-33-bios<br>
+#Download BIOS Batocera v34: https://archive.org/details/full-pack-bios-batocera-v-34-tmctv<br>
 #Download RetroPie Image: https://www.arcadepunks.com/pi-images-downloads-page/<br>
 #Mirror Batocera Old Version: https://mirrors.o2switch.fr/batocera/rpi3/stable/last/archives/
 
@@ -84,13 +87,14 @@
 	_ OBS8: para copiar arquivos para a partição SHARE no Linux Mint é necessário acessar
 	_ como Root a partição (Botão direito do mouse na partição/diretório Abrir como root)
 
-#08_ Dicas de configurações dos emuladores
+#08_ Dicas de configurações dos emuladores do Batocera V32
 
-	_ Nintendo 64: emulador que funciona perfeitamente os jogos: LIBRETRO / PARALLEL N64
-	_	Acessar Nintendo 64, Opções (Select), Opções Avançadas do Sistema, Emulador: LIBRETRO / PARALLEL N64
-	_ Playstation 2: configuração do recurso de Speedhacks do PCX2-CONFIG
-	_	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, pcsx2-config
-	_	Config, Video (GS), Core GS Settings, Speedhacks
+	_ Nintendo 64: emulador que funciona perfeitamente os jogos: LIBRETRO / PARALLEL N64;
+	_	Acessar Nintendo 64, Opções (Select ou Backspace), Opções Avançadas do Sistema, Emulador: LIBRETRO/PARALLEL N64.
+	_
+	_ Playstation 2: configuração do recurso de Speedhacks do PCX2-CONFIG;
+	_	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, pcsx2-config;
+	_	Config, Video (GS), Core GS Settings, Speedhacks;
 	_		Enable speedhacks: ON
 	_		EE Cyclerate [Not Recommended]: 3
 	_		EE Cycle Skipping [Not Recommended]: 3
@@ -100,8 +104,9 @@
 	_		mVU Flag Hack: ON
 	_		MTUV (Multi-Threaded microVU1): ON
 	_	System, Exit
-	_ Atualização das informações das ROMS (Screen Scraper): fazer o cadastro no site: https://www.screenscraper.fr/
-	_	Acessar o Menu de Jogos, Menu (Start), Scrape
+	_
+	_ Atualização das informações das ROMS (Screen Scraper): fazer o cadastro no site: https://www.screenscraper.fr/;
+	_	Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço), Scrape;
 	_		Banco de Dados: Screenscraper
 	_		Fonte da Imagem: Screenshot
 	_		Fonte da Caixa: Caixa 2D
@@ -115,8 +120,36 @@
 	_		Obter Configuração do Controle e Teclado: ON
 	_		Usuário: usuário_screenscraper
 	_		Senha: senha_screenscraper
-	_	Iniciar Procura
+	_	Iniciar Procura;
 	_		Filtro: Apenas Mídias Ausentes
 	_		Sistema: Número de Intens Selecionados
-	_	Iniciar (Aguardar esse processo demora dependendo da quantidade de jogos para obter as informações)
-	_	Voltar, Opções de Jogos, Atualizar Listas de Jogos, Sim 
+	_	Iniciar (Aguardar esse processo demora um pouco dependendo da quantidade de jogos para obter as informações);
+	_	Voltar, Opções de Jogos, Atualizar Listas de Jogos, Sim.
+	_
+	_ Steam: instalação do cliente no Batocera
+	_ 	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, Flatpak-Config
+	_	Em: buscar digite: steam <Enter>
+	_	Selecione: Steam e clique em: <Instalar>, depois: <Sim>
+	_	Selecione: Steam Link e clique em: <Instalar>, depois: <Sim>
+	_	Feche o aplicativo: Flatpak-Config em: <Close>
+	_	Saia do gerenciador de Arquivos, clique em: Arquivo e selecione: Fechar Janela
+	_	Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço) e selecionar: Opções de Jogos;
+	_	Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
+	_	Acessar as opções de: Ports e clicar em: Steam (Flatpak)
+	_	OBS11: na primeira vez que você acessar o Steam ele não irá executar o procedimento de atualizar o cliente,
+	_	você precisa sair do Steam, depois voltar novamente, na segunda vez que você acessar o Steam ele vai começar
+	_	a atualizar o sistema e instalar o cliente.
+	_	Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
+	_	Após a atualização do Steam, se autenticar com sua conta e senha.
+	_
+	_ Firefox: instalação do navegador Mozilla Firefox no Batocera
+	_ 	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, Flatpak-Config
+	_	Em: buscar digite: firefox <Enter>
+	_	Selecione: Firefox e clique em: <Instalar>, depois: <Sim>
+	_	Feche o aplicativo: Flatpak-Config em: <Close>
+	_	Saia do gerenciador de Arquivos, clique em: Arquivo e selecione: Fechar Janela
+	_	Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço) e selecionar: Opções de Jogos;
+	_	Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
+	_	Acessar as opções de: Ports e clicar em: Steam (Flatpak)
+	_	Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
+	_	Após a atualização do Steam, se autenticar com sua conta e senha

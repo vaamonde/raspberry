@@ -8,9 +8,9 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 26/09/2021<br>
-#Data de atualização: 07/12/2021<br>
-#Versão: 0.10<br>
-#Testado e homologado no Linux Mint 20.2 Uma e Batocera v32
+#Data de atualização: 18/08/2022<br>
+#Versão: 0.11<br>
+#Testado e homologado no Linux Mint 20.2 Uma, 20.3 Una e Batocera v34
 
 #Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
 #Site Oficial do Batocera: https://batocera.org/<br>
@@ -25,6 +25,9 @@
 #Download Full-Pack BIOS Batocera v31: http://theminicaketv.free.fr/PACK-BIOS-BATOCERA.htm<br>
 #Download BIOS Batocera v30: https://archive.org/details/complete-bios-collection-batocera-30<br>
 #Download BIOS Batocera v31: https://archive.org/details/bios-batocera-v-31<br>
+#Download BIOS Batocera v32: https://archive.org/details/bios-batocera-v-32<br>
+#Download BIOS Batocera v33: https://archive.org/details/batocera-33-bios<br>
+#Download BIOS Batocera v34: https://archive.org/details/full-pack-bios-batocera-v-34-tmctv<br>
 #Download RetroPie Image: https://www.arcadepunks.com/pi-images-downloads-page/<br>
 #Mirror Batocera Old Version: https://mirrors.o2switch.fr/batocera/rpi3/stable/last/archives/
 
@@ -189,7 +192,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	_	Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
 	_	Acessar as opções de: Ports e clicar em: Steam (Flatpak)
 	_	OBS11: na primeira vez que você acessar o Steam ele não irá executar o procedimento de atualizar o cliente,
-	_	você precisa sair do Steam, depois voltar novamente, na segunda vez que você acessar o Steam ele vai começcar
+	_	você precisa sair do Steam, depois voltar novamente, na segunda vez que você acessar o Steam ele vai começar
 	_	a atualizar o sistema e instalar o cliente.
 	_	Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
 	_	Após a atualização do Steam, se autenticar com sua conta e senha.
