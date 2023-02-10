@@ -8,9 +8,10 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 26/09/2021<br>
-#Data de atualização: 18/08/2022<br>
-#Versão: 0.11<br>
-#Testado e homologado no Linux Mint 20.2 Uma, 20.3 Una e Batocera v34
+#Data de atualização: 10/02/2023<br>
+#Versão: 0.12<br>
+#Testado e homologado no Linux Mint 20.2 Uma, 20.3 Una, 21 Vanessa e 21.1 Vera 
+#Testado e homologado no Batocera v34 e v35
 
 #Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
 #Site Oficial do Batocera: https://batocera.org/<br>
@@ -60,127 +61,247 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 #Instalação do Batocera v32 (30/09/2021) em Dual Boot com o Linux Mint 20.2 Uma (Desktop ou Notebook)
 
-#01_ Reparticionamento do Linux Mint utilizando o Gparted
+#01_ Partições utilizadas pelo Batocera que deve ser criada no Linux Mint
 
-	_ Para reparticionar o Linux Mint é necessário utilizar um Pen Driver do Mint com o sistema desmontado;
-	_ Utilizar o software Gparted do Live do Mint para reparticionar o HD e criar as partições do Batocera;
-	_ Partição 1: Tipo (type) = fat32, Nome (name) = BATOCERA, Tamanho mínimo de 5GB (recomendado 10GB);
-	_ Partição 2: Tipo (type) = ext4, Nome (name) = SHARE, deve ser criada logo após a partição BATOCERA.
+	OBSERVAÇÃO IMPORTANTE: Para reparticionar o Linux Mint é necessário utilizar um Pen Driver 
+	do Mint com o sistema desmontado;
+	
+	Utilizar o software Gparted do Live do Mint para reparticionar o Hard Disk e criar as duas 
+	partições utilizadas pelo Batocera;
+	
+	Partição 1: Tipo (type) = fat32, Nome (name) = BATOCERA, Tamanho mínimo de 5GB (recomendado 10GB);
+	Partição 2: Tipo (type) = ext4, Nome (name) = SHARE, deve ser criada logo após a partição BATOCERA.
 
-#02_ Criação das Partições do Batocera Linux
+#02_ Iniciando o Linux Mint com o Pendrive de Instalação
 
-	_ Iniciar o sistema com o Pen Driver do Linux Mint 20.2 Uma;
-	_ Executar o aplicativo Gparted: Menu, Search, Gparted;
-	_ OBS1: nesse exemplo estou utilizando um Hard Disk NVMe de 512GB em: /dev/nvme0 (476,94GB);
-	_ Botão direito do mouse na partição: /dev/nvme0n1p5 (Raiz do Linux), selecionar: Resize/Mode;
-	_ Diminuir a partição para: 256GB (+-256621MB) - <Resize/Move>;
-	_ No espaço não alocado (unallocated), clicar com o botão direito do mouse na partição e selecionar: New;
-	_ Criar uma partição de: 10GB (+-10825MB), File system: Fat32, Label: BATOCERA <Add>;
-	_ No espaço não alocado (unallocated), clicar com o botão direito do mouse na partição e selecionar: New;
-	_ Criar uma partição de: Total do Disco (+-230424MB), File system: Ext4, Label: SHARE <Add>;
-	_ Clicar na opção: Apply All Operations, <Apply> (esse processo demora um pouco) <Close>;
-	_ Reiniciar o sistema e voltar para o Linux Mint instalado no Hard Disk para verificar se está tudo OK.
+	OBSERVAÇÃO IMPORTANTE: Cada computador ou notebook possuí uma forma diferente de iniciar o
+	Linux Mint pelo Pendrive, podendo ser pela tecla de atalho: F8, F11 ou F12.
 
-#03_ Instalação do Batocera Linux na partição Batocera
+	01_ Plugar o Pendrive do Linux Mint no seu computador;
+	02_ Ligar o computador o acesso o sistema de boot (F8, F11 ou F12);
+	03_ Iniciar o Linux Mint como se fosse fazer uma nova instalação. 
 
-	_ Verificando as partições criadas: Menu, Pesquisar, Discos;
-	_ OBS2: verificar se as partições BATOCERA e SHARE foram criadas corretamente; 
-	_ Fazer o download do Batocera no Link: http://batocera.org/upgrades/x86_64/stable/last/boot.tar.xz
-	_ Após o download do arquivo do Batocera acessar o diretório Download;
-	_ Clicar com o botão direito do mouse no arquivo: boot.tar.xz, selecionar: Extrair Aqui;
-	_ Após extrair os arquivos, será criado o diretório: boot, acessar o conteúdo do diretório boot;
-	_ Selecionar todos os arquivos (Ctrl+A), copiar todo o conteúdo (Ctrl+C) e colar (Ctrl+V) na Raiz da partição BATOCERA;
-	_ OBS3: não é necessário configurar a partição SHARE, ela será configurada automaticamente no primeiro boot do Batocera; 
-	_ No primeiro boot do Batocera será criado os arquivos e diretórios de configuração do na partição BATOCERA e SHARE.
+#02_ Diminuir a Partição Raiz do Linux Mint para instalar o Batocera
 
-#04_ Configuração do Grub para suportar o Dual Boot do Batocera e do Linux Mint
+	01_ Após a inicialização do Linux Mint executar o aplicativo Gparted: 
+		Menu, 
+			Search, 
+				Gparted;
 
-	_ Fazer o download do projeto do Github: https://github.com/vaamonde/raspberry opção: Code, Download Zip;
-	_ OBS4: você também pode clonar o projeto com o comando: git clone https://github.com/vaamonde/raspberry
-	_ Descompactar o arquivo raspberyy-main.zip, botão direito do mouse no arquivo e selecionar: Extrair Aqui;
-	_ Acessar a pasta raspberry-man/batocera como Root: Botão direito do Mouse, selecionar: Abrir como Root;
-	_ Selecionar e copiar o arquivo: 15_batocera para o diretório: /etc/grub.d/15_batocera;
-	_ No diretório /etc/grub.d/, acessar o Terminal como Root: Botão direito do Mouse, selecionar: Abrir no Terminal;
-	_ Digitar os seguintes comandos;
-	_	#Alterando as permissões do arquivo: 15_batocera para Todos (a=All) Executar (x=Exec) 
-	_	chmod a+x 15_batocera <Enter>;
+	OBSERVAÇÃO IMPORTANTE: no meu exemplo estou utilizando um Hard Disk NVMe de 512GB que foi 
+	montado em: /dev/nvme0 (476,94GB);
+
+	02_ Selecionar a partição Raiz do Linux Mint em: /dev/nvme0n1p5 (Raiz do Linux), clicar com 
+	o botão direito do mouse na partição e selecionar: Resize/Mode;
+
+	03_ Diminuir a partição para: 256GB (+-256621MB) - <Resize/Move>;
+
+	OBSERVAÇÃO IMPORTANTE: Esse procedimento demora um pouco dependendo do tipo de Hard Disk que 
+	você está usando.
+
+	04_ Clicar na opção: Apply All Operations, <Apply> (esse processo demora um pouco)
+
+#03_ Criando as Partições do Batocera no Espaço não Alocado do Linux Mint
+
+	01_ No espaço não alocado (unallocated), clicar com o botão direito do mouse na partição e 
+	selecionar: New;
+
+	02_ Criar uma partição de: 10GB (+-10825MB), File system: Fat32, Label: BATOCERA <Add>;
+
+	03_ No espaço não alocado (unallocated), clicar com o botão direito do mouse na partição e 
+	selecionar: New;
+	
+	04_ Criar uma partição de: Total do Disco (+-230424MB), File system: Ext4, Label: SHARE <Add>;
+
+	OBSERVAÇÃO IMPORTANTE: Esse procedimento demora um pouco dependendo do tipo de Hard Disk que 
+	você está usando.
+
+	05_ Clicar na opção: Apply All Operations, <Apply> (esse processo demora um pouco) <Close>;
+
+	06_ Reiniciar o sistema e volte para o Linux Mint instalado no Hard Disk para verificar se 
+	está tudo OK e o Linux Mint está inicializando normalmente.
+
+#04_ Instalando o Batocera Linux na partição BATOCERA criada no Linux Mint
+
+	01_ Verifique se as partições foram criadas com sucesso: 
+	Menu, 
+		Pesquisar, 
+			Discos;
+	
+	OBSERVAÇÃO IMPORTANTE: verifique se as partições BATOCERA e SHARE foram criadas corretamente;
+
+	02_ Fazer o download do Batocera no Link: http://batocera.org/upgrades/x86_64/stable/last/boot.tar.xz
+
+	03_ Após o download do arquivo do Batocera acessar o diretório: Download;
+
+	04_ Clicar com o botão direito do mouse no arquivo: boot.tar.xz, selecionar: Extrair Aqui;
+
+	05_ Após extrair os arquivos, será criado o diretório: boot, acessar o diretório: boot 
+	clicando duas nele;
+
+	06_ Selecionar todos os arquivos com o atalho: Ctrl + A, copiar todo o conteúdo com o atalho: 
+	Ctrl + C e colar todo o conteúdo na Raiz da partição: BATOCERA com o atalho: Ctrl + V;
+
+	OBSERVAÇÃO IMPORTANTE: não é necessário configurar a partição SHARE, ela será configurada 
+	automaticamente no primeiro boot do Batocera; 
+	
+	07_ No primeiro boot do Batocera será criado os arquivos e diretórios de configuração do Batocera
+	na partição BATOCERA e SHARE.
+
+#05_ Criando o arquivo do Grub para suportar o Dual Boot do Batocera e do Linux Mint
+
+	01_ Fazer o download do projeto do Github: https://github.com/vaamonde/raspberry 
+		Clique na opção: Code, depois: Download Zip;
+
+	OBSERVAÇÃO IMPORTANTE: você pode clonar o projeto utilizando o comando: git no seu terminal:
+		git clone https://github.com/vaamonde/raspberry
+	
+	02_ Descompactar o arquivo raspberyy-main.zip, botão direito do mouse no arquivo e selecione: 
+	Extrair Aqui;
+
+	03_ Acesse o diretório criado: raspberry-man/batocera 
+	
+	04_ Altera para Root clicando com o Botão direito do Mouse, selecione: Abrir como Root;
+
+	05_ Selecione o arquivo: 15_batocera clique com o botão direito do mouse e selecione: Copiar;
+	
+	06_ Navegue até o diretório: Sistemas de arquivo, /etc e /grub.d/ cole o arquivo: 15_batocera
+	nesse diretório com o atalho: Ctrl + V ou com o Botão Direito do mouse e selecione: Colar
+
+#06 Habilitando o arquivo do Grub do Batocera no Linux Mint
+
+	01_ No diretório: /etc/grub.d/, acesse o Terminal como Root, clique com o Botão direito do Mouse
+	na área branca e selecione: Abrir no Terminal;
+
+	02_ Digite os seguintes comandos para habilitar o boot do Batocera;
+
 	_	#Instalando o editor de Texto VIM
-	_	apt install vim <Enter>;
-	_	OBS5: utilizar o editor de Texto VIM para editar o arquivo do Grub;
+	_	apt install vim
+
+	_	#Alterando as permissões do arquivo: 15_batocera para Todos (a=All) Executar (x=Exec) 
+	_	chmod a+x 15_batocera
+	
 	_	#Editando o arquivo de configuração do GRUB
 	_	vim /etc/default/grub <Enter>;
+	
 	_		#Pressione INSERT para entrar no modo de Edição, alterar as linhas abaixo:
 	_			GRUB_TIMEOUT_STYLE=menu	<-- mudar de hidden para menu
 	_			GRUB_TIMEOUT=10	<-- mudar de 0 para 10
 	_		#Pressione ESC para sair do modo de Edição, pressione: Shift :x <Enter> para salvar e sair do VIM
-	_	#Atualizando as informações do GRUB
-	_	update-grub <Enter>.
-	_	#Reinicializando a máquina para testar as configurações do GRUB
-	_	reboot <Enter>
-
-#05_ Ligando o Linux Mint 20.2 com o Batocera Linux v32 em Dual Boot
 	
-	_ OBS6: é recomendado ligar o Batocera v32 conectado com Teclado, Joystick e Rede Cabeada;
-	_ OBS7: no primeiro boot o sistema irá executar as configurações das partições BATOCERA e SHARE;
-	_ OBS8: no Batocera v32 os controles/joystick são reconhecidos automaticamente.
+	_	#Atualizando as informações do GRUB
+	_	update-grub
+	_	
+		OBSERVAÇÃO IMPORTANTE: de verá aparecer a seguinte mensagem confirmando que o Batocera
+		foi instalado com sucesso: Imagem do Batocera encontrada
 
-#06_ Configurações básicas do Batocera v32
+		#Reinicializando a máquina para testar as configurações do GRUB
+	_	reboot
 
-	_ OBS9: por padrão o Batocera vem configurado na linguagem Americano/Inglês;
-	_ Alterar a linguagem: Start (Menu ou Barra de Espaço), System Settings, Language: Portugues Brasileiro;
-	_ OBS10: na versão v32 do Batocera não é necessário reinicializar o sistema;
-	_ Atualizando a lista de jogos: Start (Menu ou Barra de Espaço), Opções de Jogos, Atualizar Lista de Jogos, Sim;
-	_ Para sair de um jogo você pressiona: Start + Select.
+#07_ Ligando o Linux Mint com Dual Boot do Batocera Linux
+	
+	OBSERVAÇÃO IMPORTANTE: é recomendado ligar o Batocera Linux conectado com Teclado, Joystick 
+	e Placa de Rede Cabeada (Internet);
 
-#07_ Partições do Batocera v32
+	OBSERVAÇÃO IMPORTANTE: no primeiro boot do Batocera ele irá começar a executar as configurações 
+	das partições BATOCERA e SHARE;
 
-	_ Partição BATOCERA: sistema de boot e arquivos de inicialização/binários do Batocera;
-	_ Partição SHARE: localização das ROMS (jogos), BIOS (PS2/PS3, etc...), Músicas, Temas, etc...;
-	_ Na partição SHARE no diretório: roms fica localizado todos os diretórios dos consoles que o 
-	_ Batocera tem suporte, cada diretório tem um nome correspondente ao seu console;
-	_ Exemplo: snes = Super Nintendo, psx = Playstation, n64 = Nintendo 64, etc...;
-	_ OBS11: para copiar arquivos para a partição SHARE no Linux Mint é necessário acessar como Root 
-	_ a partição (Botão direito do mouse na partição/diretório SHARE, selecionar: Abrir como root).
+	OBSERVAÇÃO IMPORTANTE: no Batocera Linux os controles/joystick são reconhecidos automaticamente.
 
-#08_ Dicas de configurações dos emuladores do Batocera V32
+	01_ Na instalação do Linux Mint selecione: Batocera Linux Retro Games
 
-	_ Nintendo 64: emulador que funciona perfeitamente os jogos: LIBRETRO / PARALLEL N64;
-	_	Acessar Nintendo 64, Opções (Select ou Backspace), Opções Avançadas do Sistema, Emulador: LIBRETRO/PARALLEL N64.
-	_
-	_ Playstation 2: configuração do recurso de Speedhacks do PCX2-CONFIG;
-	_	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, pcsx2-config;
-	_	Config, Video (GS), Core GS Settings, Speedhacks;
-	_		Enable speedhacks: ON
-	_		EE Cyclerate [Not Recommended]: 3
-	_		EE Cycle Skipping [Not Recommended]: 3
-	_		Enable INTC Spin Detection: ON
-	_		Enable Wait Loop Detection: ON
-	_		Enable fast CDVD: ON
-	_		mVU Flag Hack: ON
-	_		MTUV (Multi-Threaded microVU1): ON
-	_	System, Exit
-	_
-	_ Atualização das informações das ROMS (Screen Scraper): fazer o cadastro no site: https://www.screenscraper.fr/;
-	_	Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço), Scrape;
-	_		Banco de Dados: Screenscraper
-	_		Fonte da Imagem: Screenshot
-	_		Fonte da Caixa: Caixa 2D
-	_		Fonte do Logotipo: Logotipo
-	_		Obter Avaliações: ON
-	_		Obter Vídeos: ON
-	_		Obter Fanart: ON
-	_		Obter parte de trás da Caixa: ON
-	_		Obter Mapa: ON
-	_		Obter Manual: ON
-	_		Obter Configuração do Controle e Teclado: ON
-	_		Usuário: usuário_screenscraper
-	_		Senha: senha_screenscraper
-	_	Iniciar Procura;
-	_		Filtro: Apenas Mídias Ausentes
-	_		Sistema: Número de Intens Selecionados
-	_	Iniciar (Aguardar esse processo demora um pouco dependendo da quantidade de jogos para obter as informações);
-	_	Voltar, Opções de Jogos, Atualizar Listas de Jogos, Sim.
-	_
+#08_ Configurações básicas do Batocera Linux
+
+	OBSERVAÇÃO IMPORTANTE: por padrão o Batocera Linux vem configurado na lingua Americano/Inglês;
+
+	01_ Alterar a linguagem: 
+		Start (Menu ou Barra de Espaço), 
+			System Settings, 
+				Language: Portugues Brasileiro;
+	
+	OBSERVAÇÃO IMPORTANTE: a partir da versão v32 do Batocera não é mais necessário reinicializar 
+	o sistema para aplicar as mudanças;
+
+	02_ Atualizando as listas de jogos: 
+		Start (Menu ou Barra de Espaço), 
+			Opções de Jogos, 
+				Atualizar Lista de Jogos, Sim;
+
+	OBSERVAÇÃO IMPORTANTE: Para sair de um jogo você pressiona: Start + Select (Simultaneamente).
+
+#09_ Conhecendo as Partições do Batocera Linux
+
+	Partição BATOCERA: sistema de boot e arquivos de inicialização/binários do Batocera;
+	
+	Partição SHARE: localização das ROMS (jogos), BIOS (PS2/PS3, etc...), Músicas, Temas, etc...;
+	
+	Na partição SHARE no diretório: roms fica localizado todos os diretórios dos consoles que o 
+	Batocera tem suporte, cada diretório tem um nome correspondente ao seu console;
+	
+	EXEMPLO: snes = Super Nintendo, psx = Playstation, n64 = Nintendo 64, etc...;
+	
+	OBSERVAÇÃO IMPORTANTE: para copiar arquivos para a partição SHARE no Linux Mint é necessário 
+	acessar como Root a partição SHARE (Botão direito do mouse na partição/diretório SHARE, selecionar: 
+	Abrir como root).
+
+#10_ Dicas de configurações dos emuladores do Batocera Linux
+
+	NINTENDO 64: emulador que funciona perfeitamente os jogos: LIBRETRO / PARALLEL N64;
+
+	Acessar Nintendo 64, 
+		Opções (Select ou Backspace), 
+			Opções Avançadas do Sistema, 
+				Emulador: LIBRETRO/PARALLEL N64.
+	
+	PLAYSTATION 2: configuração do recurso de Speedhacks do PCX2-CONFIG;
+	
+	Acessar o Menu de Jogos, F1 (Arquivos), 
+		Aplicativos, 
+			pcsx2-config;
+				Config, 
+					Video (GS), 
+						Core GS Settings, 
+							Speedhacks;
+								Enable speedhacks: ON
+								EE Cyclerate [Not Recommended]: 3
+								EE Cycle Skipping [Not Recommended]: 3
+								Enable INTC Spin Detection: ON
+								Enable Wait Loop Detection: ON
+								Enable fast CDVD: ON
+								mVU Flag Hack: ON
+								MTUV (Multi-Threaded microVU1): ON
+			System, Exit
+	
+	Atualização das informações das ROMS (Screen Scraper): 
+	
+	Primeiro: fazer o cadastro no site: https://www.screenscraper.fr/;
+	
+	Acessar o Menu de Jogos, 
+		Menu (Start ou Barra de Espaço), 
+			Scrape;
+				Banco de Dados: Screenscraper
+				Fonte da Imagem: Screenshot
+				Fonte da Caixa: Caixa 2D
+				Fonte do Logotipo: Logotipo
+				Obter Avaliações: ON
+				Obter Vídeos: ON
+				Obter Fanart: ON
+				Obter parte de trás da Caixa: ON
+				Obter Mapa: ON
+				Obter Manual: ON
+				Obter Configuração do Controle e Teclado: ON
+				Usuário: usuário_screenscraper
+				Senha: senha_screenscraper
+				Iniciar Procura;
+				Filtro: Apenas Mídias Ausentes
+				Sistema: Número de Intens Selecionados
+			Iniciar (Aguardar esse processo demora um pouco dependendo da quantidade de jogos 
+			para obter as informações);
+	
+		Voltar, 
+			Opções de Jogos, 
+				Atualizar Listas de Jogos, Sim.
+
 	_ Steam: instalação do cliente no Batocera
 	_ 	Acessar o Menu de Jogos, F1 (Arquivos), Aplicativos, Flatpak-Config
 	_	Em: buscar digite: steam <Enter>
