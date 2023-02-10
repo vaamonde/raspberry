@@ -304,49 +304,49 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 	STEAM: instalação do cliente no Batocera
 	
-	Acessar o Menu de Jogos, F1 (Arquivos), 
-		Aplicativos, 
-			Flatpak-Config
-				Em: buscar digite: steam <Enter>
-				Selecione: Steam e clique em: <Instalar>, 
-					depois: <Sim>
-				Selecione: Steam Link e clique em: <Instalar>, 
-					depois: <Sim>
-				Feche o aplicativo: Flatpak-Config em: <Close>
-	
-	Saia do gerenciador de Arquivos, clique em: Arquivo e selecione: Fechar Janela
-	
-	Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço) e selecionar: Opções de Jogos;
+		Acessar o Menu de Jogos, F1 (Arquivos), 
+			Aplicativos, 
+				Flatpak-Config
+					Em: buscar digite: steam <Enter>
+					Selecione: Steam e clique em: <Instalar>, 
+						depois: <Sim>
+					Selecione: Steam Link e clique em: <Instalar>, 
+						depois: <Sim>
+					Feche o aplicativo: Flatpak-Config em: <Close>
+		
+		Saia do gerenciador de Arquivos, clique em: Arquivo e selecione: Fechar Janela
+		
+		Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço) e selecionar: Opções de Jogos;
 
-	Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
+		Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
 
-	Acesse as opções de: Ports e clicar em: Steam (Flatpak)
+		Acesse as opções de: Ports e clicar em: Steam (Flatpak)
 
-	OBSERVAÇÃO IMPORTANTE: na primeira vez que você acessar o Steam ele não irá executar o 
-	procedimento de atualizar o cliente, você precisa sair do Steam, depois voltar novamente, 
-	na segunda vez que você acessar o Steam ele vai começar a atualizar o sistema e instalar 
-	o cliente.
-	
-	Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
-	
-	Após a atualização do Steam, faça a autenticação com sua conta e senha.
+		OBSERVAÇÃO IMPORTANTE: na primeira vez que você acessar o Steam ele não irá executar o 
+		procedimento de atualizar o cliente, você precisa sair do Steam, depois voltar novamente, 
+		na segunda vez que você acessar o Steam ele vai começar a atualizar o sistema e instalar 
+		o cliente.
+		
+		Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
+		
+		Após a atualização do Steam, faça a autenticação com sua conta e senha.
 
 	FIREFOX: instalação do navegador Mozilla Firefox no Batocera
 	
-	Acessar o Menu de Jogos, F1 (Arquivos), 
-		Aplicativos, 
-			Flatpak-Config
-				Em: buscar digite: firefox <Enter>
-				Selecione: Firefox e clique em: <Instalar>, depois: <Sim>
-				Feche o aplicativo: Flatpak-Config em: <Close>
-				Saia do gerenciador de Arquivos, clique em: Arquivo e selecione: Fechar Janela
-	
-	Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço) e selecionar: Opções de Jogos;
-	
-	Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
-	
-	Acessar as opções de: Ports e clicar em: Steam (Flatpak)
-	
-	Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
-	Após a atualização do Steam, se autenticar com sua conta e senha
+		Acessar o Menu de Jogos, F1 (Arquivos), 
+			Aplicativos, 
+				Flatpak-Config
+					Em: buscar digite: firefox <Enter>
+					Selecione: Firefox e clique em: <Instalar>, depois: <Sim>
+					Feche o aplicativo: Flatpak-Config em: <Close>
+					Saia do gerenciador de Arquivos, clique em: Arquivo e selecione: Fechar Janela
+		
+		Acessar o Menu de Jogos, Menu (Start ou Barra de Espaço) e selecionar: Opções de Jogos;
+		
+		Em Ferramentas, selecione: Atualizar Lista de Jogos <Sim>
+		
+		Acessar as opções de: Ports e clicar em: Steam (Flatpak)
+		
+		Aguarde a atualização do aplicativo Steam (esse processo demora um pouco)
+		Após a atualização do Steam, se autenticar com sua conta e senha
 	
