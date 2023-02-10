@@ -272,35 +272,35 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 								MTUV (Multi-Threaded microVU1): ON
 			System, Exit
 	
-	Atualização das informações das ROMS (Screen Scraper): 
+	SCREEN SCRAPER: Atualização das informações das ROMS (Screen Scraper): 
 	
-	Primeiro: fazer o cadastro no site: https://www.screenscraper.fr/;
-	
-	Acessar o Menu de Jogos, 
-		Menu (Start ou Barra de Espaço), 
-			Scrape;
-				Banco de Dados: Screenscraper
-				Fonte da Imagem: Screenshot
-				Fonte da Caixa: Caixa 2D
-				Fonte do Logotipo: Logotipo
-				Obter Avaliações: ON
-				Obter Vídeos: ON
-				Obter Fanart: ON
-				Obter parte de trás da Caixa: ON
-				Obter Mapa: ON
-				Obter Manual: ON
-				Obter Configuração do Controle e Teclado: ON
-				Usuário: usuário_screenscraper
-				Senha: senha_screenscraper
-				Iniciar Procura;
-				Filtro: Apenas Mídias Ausentes
-				Sistema: Número de Intens Selecionados
-			Iniciar (Aguardar esse processo demora um pouco dependendo da quantidade de jogos 
-			para obter as informações);
-	
-		Voltar, 
-			Opções de Jogos, 
-				Atualizar Listas de Jogos, Sim.
+		Primeiro: fazer o cadastro no site: https://www.screenscraper.fr/;
+		
+		Acessar o Menu de Jogos, 
+			Menu (Start ou Barra de Espaço), 
+				Scrape;
+					Banco de Dados: Screenscraper
+					Fonte da Imagem: Screenshot
+					Fonte da Caixa: Caixa 2D
+					Fonte do Logotipo: Logotipo
+					Obter Avaliações: ON
+					Obter Vídeos: ON
+					Obter Fanart: ON
+					Obter parte de trás da Caixa: ON
+					Obter Mapa: ON
+					Obter Manual: ON
+					Obter Configuração do Controle e Teclado: ON
+					Usuário: usuário_screenscraper
+					Senha: senha_screenscraper
+					Iniciar Procura;
+					Filtro: Apenas Mídias Ausentes
+					Sistema: Número de Intens Selecionados
+				Iniciar (Aguardar esse processo demora um pouco dependendo da quantidade de jogos 
+				para obter as informações);
+		
+			Voltar, 
+				Opções de Jogos, 
+					Atualizar Listas de Jogos, Sim.
 
 	STEAM: instalação do cliente no Batocera
 	
