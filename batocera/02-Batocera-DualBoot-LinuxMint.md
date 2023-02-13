@@ -8,9 +8,9 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 26/09/2021<br>
-#Data de atualização: 10/02/2023<br>
-#Versão: 0.12<br>
-#Testado e homologado no Linux Mint 20.2 Uma, 20.3 Una, 21 Vanessa e 21.1 Vera 
+#Data de atualização: 13/02/2023<br>
+#Versão: 0.13<br>
+#Testado e homologado no Linux Mint 20.2 Uma, 20.3 Una, 21 Vanessa e 21.1 Vera<br>
 #Testado e homologado no Batocera v34 e v35
 
 #Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
@@ -70,15 +70,15 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	partições utilizadas pelo Batocera;
 	
 	Partição 1: Tipo (type) = fat32, Nome (name) = BATOCERA, Tamanho mínimo de 5GB (recomendado 10GB);
-	Partição 2: Tipo (type) = ext4, Nome (name) = SHARE, deve ser criada logo após a partição BATOCERA.
+	Partição 2: Tipo (type) = ext4,  Nome (name) = SHARE, deve ser criada logo após a partição BATOCERA.
 
 #02_ Iniciando o Linux Mint com o Pendrive de Instalação
 
 	OBSERVAÇÃO IMPORTANTE: Cada computador ou notebook possuí uma forma diferente de iniciar o
-	Linux Mint pelo Pendrive, podendo ser pela tecla de atalho: F8, F11 ou F12.
+	Linux Mint pelo Pendrive, podendo ser pelas teclas de atalho: F8, F11 ou F12.
 
 	01_ Plugar o Pendrive do Linux Mint no seu computador;
-	02_ Ligar o computador o acesso o sistema de boot (F8, F11 ou F12);
+	02_ Ligar o computador e acessar o sistema de boot com as teclas atalho (F8, F11 ou F12);
 	03_ Iniciar o Linux Mint como se fosse fazer uma nova instalação. 
 
 #02_ Diminuir a Partição Raiz do Linux Mint para instalar o Batocera
@@ -91,15 +91,18 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	OBSERVAÇÃO IMPORTANTE: no meu exemplo estou utilizando um Hard Disk NVMe de 512GB que foi 
 	montado em: /dev/nvme0 (476,94GB);
 
-	02_ Selecionar a partição Raiz do Linux Mint em: /dev/nvme0n1p5 (Raiz do Linux), clicar com 
-	o botão direito do mouse na partição e selecionar: Resize/Mode;
+	02_ Selecionar a partição Raiz do Linux Mint em: /dev/nvme0n1p5 (Raiz do Linux - alterar a
+	localização do Disco conforme a sua necessidade), clicar com o botão direito do mouse na 
+	partição e selecionar: Resize/Mode;
 
-	03_ Diminuir a partição para: 256GB (+-256621MB) - <Resize/Move>;
+	03_ Diminuir a partição para: 256GB (+-256621MB - alterar conforme a sua necessidade e tamanho
+	do disco disponível) - <Resize/Move>;
 
 	OBSERVAÇÃO IMPORTANTE: Esse procedimento demora um pouco dependendo do tipo de Hard Disk que 
-	você está usando.
+	você está usando (HD mecânico de 5400rpm por exemplo).
 
-	04_ Clicar na opção: Apply All Operations, <Apply> (esse processo demora um pouco)
+	04_ Clicar na opção: Apply All Operations, <Apply> (esse processo demora um pouco, aguarde)
+	<Close>;
 
 #03_ Criando as Partições do Batocera no Espaço não Alocado do Linux Mint
 
@@ -111,15 +114,19 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	03_ No espaço não alocado (unallocated), clicar com o botão direito do mouse na partição e 
 	selecionar: New;
 	
-	04_ Criar uma partição de: Total do Disco (+-230424MB), File system: Ext4, Label: SHARE <Add>;
+	04_ Criar uma partição de: Total do Disco (+-230424MB ou quanto sobre no seu disco), File 
+	system: Ext4, Label: SHARE <Add>;
 
 	OBSERVAÇÃO IMPORTANTE: Esse procedimento demora um pouco dependendo do tipo de Hard Disk que 
-	você está usando.
+	você está usando (HD mecânico de 5400rpm por exemplo).
 
 	05_ Clicar na opção: Apply All Operations, <Apply> (esse processo demora um pouco) <Close>;
 
-	06_ Reiniciar o sistema e volte para o Linux Mint instalado no Hard Disk para verificar se 
-	está tudo OK e o Linux Mint está inicializando normalmente.
+	06_ Reiniciar o Live do Linux Mint e volte para o Linux Mint instalado no Hard Disk para 
+	verificar se está tudo OK na inicializando.
+
+	OBSERVAÇÃO IMPORTANTE: CASO VOCÊ ALTERE AO APAGUE A PARTIÇÃO DE BOOT DO LINUX MINT ELE NÃO
+	IRÁ MAIS INICIAR CORRETAMENTE, MUITO CUIDADO NOS PROCEDIMENTOS DE REDIMENCIONAMENTO DE DISCO.
 
 #04_ Instalando o Batocera Linux na partição BATOCERA criada no Linux Mint
 
@@ -132,31 +139,35 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 	02_ Fazer o download do Batocera no Link: http://batocera.org/upgrades/x86_64/stable/last/boot.tar.xz
 
-	03_ Após o download do arquivo do Batocera acessar o diretório: Download;
+	03_ Após o download do arquivo do Batocera acesse o diretório: Download;
 
 	04_ Clicar com o botão direito do mouse no arquivo: boot.tar.xz, selecionar: Extrair Aqui;
 
 	05_ Após extrair os arquivos, será criado o diretório: boot, acessar o diretório: boot 
 	clicando duas nele;
 
-	06_ Selecionar todos os arquivos com o atalho: Ctrl + A, copiar todo o conteúdo com o atalho: 
-	Ctrl + C e colar todo o conteúdo na Raiz da partição: BATOCERA com o atalho: Ctrl + V;
+	06_ Selecionar todos os arquivos com o atalho: Ctrl + A (selecionar tudo), copiar todo o 
+	conteúdo do diretório com o atalho: Ctrl + C (copiar) e colar todo o conteúdo na Raiz da 
+	partição: BATOCERA com o atalho: Ctrl + V (colar);
 
 	OBSERVAÇÃO IMPORTANTE: não é necessário configurar a partição SHARE, ela será configurada 
 	automaticamente no primeiro boot do Batocera; 
 	
-	07_ No primeiro boot do Batocera será criado os arquivos e diretórios de configuração do Batocera
-	na partição BATOCERA e SHARE.
+	07_ No primeiro boot do Batocera será criado os arquivos e diretórios de configuração do 
+	Batocera na partição BATOCERA e SHARE.
 
 #05_ Criando o arquivo do Grub para suportar o Dual Boot do Batocera e do Linux Mint
 
 	01_ Fazer o download do projeto do Github: https://github.com/vaamonde/raspberry 
 		Clique na opção: Code, depois: Download Zip;
 
+	Link direto: https://github.com/vaamonde/raspberry/archive/refs/heads/main.zip
+
 	OBSERVAÇÃO IMPORTANTE: você pode clonar o projeto utilizando o comando: git no seu terminal:
+		Atalho Terminal: Ctrl + Alt + T
 		git clone https://github.com/vaamonde/raspberry
 	
-	02_ Descompactar o arquivo raspberyy-main.zip, botão direito do mouse no arquivo e selecione: 
+	02_ Descompactar o arquivo raspberry-main.zip, botão direito do mouse no arquivo e selecione: 
 	Extrair Aqui;
 
 	03_ Acesse o diretório criado: raspberry-man/batocera 
@@ -165,7 +176,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 	05_ Selecione o arquivo: 15_batocera clique com o botão direito do mouse e selecione: Copiar;
 	
-	06_ Navegue até o diretório: Sistemas de arquivo, /etc e /grub.d/ cole o arquivo: 15_batocera
+	06_ Navegue até o diretório: Sistemas de arquivo, /etc/ e /grub.d/ cole o arquivo: 15_batocera
 	nesse diretório com o atalho: Ctrl + V ou com o Botão Direito do mouse e selecione: Colar
 
 #06 Habilitando o arquivo do Grub do Batocera no Linux Mint
@@ -176,23 +187,29 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	02_ Digite os seguintes comandos para habilitar o boot do Batocera;
 
 		#Instalando o editor de Texto VIM
+		apt update
 		apt install vim
 
-		#Alterando as permissões do arquivo: 15_batocera para Todos (a=All) Executar (x=Exec) 
+		#Alterando as permissões do arquivo: 15_batocera para: Todos (a=All) + (Adicionar) Executar (x=Exec) 
 		chmod a+x 15_batocera
 
 		#Editando o arquivo de configuração do GRUB
 		vim /etc/default/grub <Enter>;
 
 			#Pressione INSERT para entrar no modo de Edição, alterar as linhas abaixo:
-				GRUB_TIMEOUT_STYLE=menu	<-- mudar de hidden para menu
-				GRUB_TIMEOUT=10	<-- mudar de 0 para 10
+				
+				#mudar de hidden para menu
+				GRUB_TIMEOUT_STYLE=menu
+				
+				#mudar de 0 para 10
+				GRUB_TIMEOUT=10
+			
 			#Pressione ESC para sair do modo de Edição, pressione: Shift :x <Enter> para salvar e sair do VIM
 	
 		#Atualizando as informações do GRUB
 		update-grub
 
-		OBSERVAÇÃO IMPORTANTE: de verá aparecer a seguinte mensagem confirmando que o Batocera
+		OBSERVAÇÃO IMPORTANTE: deverá aparecer a seguinte mensagem confirmando que o Batocera
 		foi instalado com sucesso: Imagem do Batocera encontrada
 
 		#Reinicializando a máquina para testar as configurações do GRUB
@@ -200,15 +217,15 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 #07_ Ligando o Linux Mint com Dual Boot do Batocera Linux
 	
+	01_ Na instalação do Linux Mint selecione: Batocera Linux Retro Games
+
 	OBSERVAÇÃO IMPORTANTE: é recomendado ligar o Batocera Linux conectado com Teclado, Joystick 
 	e Placa de Rede Cabeada (Internet);
 
 	OBSERVAÇÃO IMPORTANTE: no primeiro boot do Batocera ele irá começar a executar as configurações 
-	das partições BATOCERA e SHARE;
+	das partições BATOCERA e SHARE, aguarde;
 
 	OBSERVAÇÃO IMPORTANTE: no Batocera Linux os controles/joystick são reconhecidos automaticamente.
-
-	01_ Na instalação do Linux Mint selecione: Batocera Linux Retro Games
 
 #08_ Configurações básicas do Batocera Linux
 
@@ -217,7 +234,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	01_ Alterar a linguagem: 
 		Start (Menu ou Barra de Espaço), 
 			System Settings, 
-				Language: Portugues Brasileiro;
+				Language: Português Brasileiro;
 	
 	OBSERVAÇÃO IMPORTANTE: a partir da versão v32 do Batocera não é mais necessário reinicializar 
 	o sistema para aplicar as mudanças;
@@ -241,8 +258,8 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	EXEMPLO: snes = Super Nintendo, psx = Playstation, n64 = Nintendo 64, etc...;
 	
 	OBSERVAÇÃO IMPORTANTE: para copiar arquivos para a partição SHARE no Linux Mint é necessário 
-	acessar como Root a partição SHARE (Botão direito do mouse na partição/diretório SHARE, selecionar: 
-	Abrir como root).
+	acessar como Root a partição SHARE (Botão direito do mouse na partição/diretório SHARE, 
+	selecionar: Abrir como root).
 
 #10_ Dicas de configurações dos emuladores do Batocera Linux
 
