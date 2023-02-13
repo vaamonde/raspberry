@@ -186,34 +186,34 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 	02_ Digite os seguintes comandos para habilitar o boot do Batocera;
 
-		#Instalando o editor de Texto VIM
-		apt update
-		apt install vim
+	#Instalando o editor de Texto VIM
+	apt update
+	apt install vim
 
-		#Alterando as permissões do arquivo: 15_batocera para: Todos (a=All) + (Adicionar) Executar (x=Exec) 
-		chmod a+x 15_batocera
+	#Alterando as permissões do arquivo: 15_batocera para: Todos (a=All) + (Adicionar) Executar (x=Exec) 
+	chmod a+x 15_batocera
 
-		#Editando o arquivo de configuração do GRUB
-		vim /etc/default/grub <Enter>;
+	#Editando o arquivo de configuração do GRUB
+	vim /etc/default/grub <Enter>;
 
-			#Pressione INSERT para entrar no modo de Edição, alterar as linhas abaixo:
-				
-				#mudar de hidden para menu
-				GRUB_TIMEOUT_STYLE=menu
-				
-				#mudar de 0 para 10
-				GRUB_TIMEOUT=10
+		#Pressione INSERT para entrar no modo de Edição, alterar as linhas abaixo:
 			
-			#Pressione ESC para sair do modo de Edição, pressione: Shift :x <Enter> para salvar e sair do VIM
-	
-		#Atualizando as informações do GRUB
-		update-grub
+			#mudar de hidden para menu
+			GRUB_TIMEOUT_STYLE=menu
+			
+			#mudar de 0 para 10
+			GRUB_TIMEOUT=10
+		
+		#Pressione ESC para sair do modo de Edição, pressione: Shift :x <Enter> para salvar e sair do VIM
 
-		OBSERVAÇÃO IMPORTANTE: deverá aparecer a seguinte mensagem confirmando que o Batocera
-		foi instalado com sucesso: Imagem do Batocera encontrada
+	#Atualizando as informações do GRUB
+	update-grub
 
-		#Reinicializando a máquina para testar as configurações do GRUB
-		reboot
+	OBSERVAÇÃO IMPORTANTE: deverá aparecer a seguinte mensagem confirmando que o Batocera
+	foi instalado com sucesso: Imagem do Batocera encontrada
+
+	#Reinicializando a máquina para testar as configurações do GRUB
+	reboot
 
 #07_ Ligando o Linux Mint com Dual Boot do Batocera Linux
 	
