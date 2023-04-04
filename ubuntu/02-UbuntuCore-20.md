@@ -51,7 +51,7 @@
 
 #07_ Copiando o conteúdo da Chave Pública no Ubuntu One
 
-	_ Ubuntu One SSo SSH Key: https://login.ubuntu.com/ssh-keys
+	_ Ubuntu One SSO SSH Key: https://login.ubuntu.com/ssh-keys
 	_ Copiar a colar todo o conteúdo da chave pública no campo: Import new SSH key <Import SSH Key>
 
 #08_ Ligando o Raspberry Pi 3 B com o microSD Card do Ubuntu Core 20 ARM x64 Bits
