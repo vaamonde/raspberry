@@ -1,0 +1,86 @@
+================================================================================
+Gerenciadores de Jogos para GNU/Linux
+Steam: https://store.steampowered.com/
+Paradox: https://www.paradoxplaza.com/
+Origin: https://www.origin.com/bra/en-us/store
+GOG Galaxy: https://www.gog.com/galaxy
+
+================================================================================
+Download de Emuladores e ROMS (Jogos)
+Emuladores: https://emulator.games/emulators/
+ROMS: https://emulator.games/roms/
+ROMS: http://www.portalroms.com/
+ROMS: https://romsmania.cc/
+Mega Pacote: 128GB ATTRACT MODE - AM128IMG
+https://www.arcadepunks.com/retro-pi-downloads-page/
+
+================================================================================
+Distribuições Retro Games GNU/Linux
+
+Lakka: http://www.lakka.tv/
+Sparky: https://sparkylinux.org/
+Ubuntu Game Pack: https://ualinux.com/en/ubuntu-gamepack
+SteamOS: https://store.steampowered.com/steamos/download
+GOG: https://www.gog.com/
+Origim: https://www.origin.com/bra/pt-br/store
+Lutris: https://lutris.net/
+Playnite: https://playnite.link/
+Ubisoft: http://uplay.ubi.com/
+RecalBOX: https://www.recalbox.com/
+RetroArch: http://www.retroarch.com/
+RetroPie: https://retropie.org.uk/
+Batocera: https://batocera-linux.xorhub.com/
+Game Drift:http://gamedrift.org/
+Super Gamer: https://www.supergamer.x10host.com/
+ExaGear: https://eltechs.com/product/exagear-desktop/
+Fightcade: https://www.fightcade.com/
+
+================================================================================
+Emuladores de Playstation para GNU/Linux
+
+PS1
+pcsxr, epsxe, mednafen, pcsx, ppsspr
+http://pcsx-df.sourceforge.net/
+https://www.linux.org/threads/playstation-1-and-2-on-linux.4484/
+
+PS2
+pcsx2
+https://pcsx2.net/
+https://www.linux.org/threads/playstation-1-and-2-on-linux.4484/
+
+PS3
+rpcs3
+https://rpcs3.net/
+
+================================================================================
+Emuladores de Xbox para GNU/Linux
+
+XBox
+http://xboxemu.com/emulators/
+http://xqemu.com/
+
+================================================================================
+Projeto Lan House e Cyber Cafe Linux
+
+Mkahawa - http://mkahawa.sourceforge.net/screenshots.php (começando os testes, aparentemente o melhor)
+OpenASB - http://www.openasb.com/ (aparentemente o melhor)
+CybOrg - http://cyborg.sourceforge.net/screenshots.html.en
+OpenLanHouse - https://sourceforge.net/projects/openlanhouse/files/openlanhouse/0.1/
+Cafe Con Leche - http://ccl.sourceforge.net/index.php?page=sshots
+Cafepilot - https://sourceforge.net/projects/cafepilot/
+Cyber Billing - https://sourceforge.net/projects/cyber-billing/
+Clean Timer - https://sourceforge.net/projects/cleantimer/?source=directory
+Cyber Manager - https://sourceforge.net/projects/cybermanager/?source=directory
+
+================================================================================
+#Projeto Rock Band - Drums and Guitar
+
+Clone Hero:			https://clonehero.net/
+DWSK Phase Shift:	http://dwsk.co.uk/index.html
+
+================================================================================
+#Projeto Karaoke
+
+Karaoke Spivak: https://github.com/gyunaev/spivak
+Karaoke Ultrastar Deluxe: https://ultrastar-es.org/pt/canciones
+Karaoke Vocaluxe: https://www.vocaluxe.org/
