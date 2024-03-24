@@ -8,10 +8,10 @@
 #Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
 #YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
 #Data de criação: 26/09/2021<br>
-#Data de atualização: 13/02/2023<br>
-#Versão: 0.13<br>
-#Testado e homologado no Linux Mint 20.2 Uma, 20.3 Una, 21 Vanessa e 21.1 Vera<br>
-#Testado e homologado no Batocera v34 e v35
+#Data de atualização: 24/03/2024<br>
+#Versão: 0.14<br>
+#Testado e homologado no Linux Mint 20.2 Uma, 20.3 Una, 21 Vanessa, 21.1 Vera, 21.2 Victoria e 21.3 Virginia<br>
+#Testado e homologado no Batocera v34, v35, v36, v37, v38 e v39
 
 #Site Oficial do Linux Mint: https://www.linuxmint.com/<br>
 #Site Oficial do Batocera: https://batocera.org/<br>
@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 #Instalação do Batocera v32 (30/09/2021) em Dual Boot com o Linux Mint 20.2 Uma (Desktop ou Notebook)
 
-#01_ Partições utilizadas pelo Batocera que deve ser criada no Linux Mint
+#01_ Partições utilizadas pelo Batocera que deve ser criadas no Linux Mint
 
 	OBSERVAÇÃO IMPORTANTE: Para reparticionar o Linux Mint é necessário utilizar um Pen Driver 
 	do Mint com o sistema desmontado;
@@ -78,7 +78,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	Linux Mint pelo Pendrive, podendo ser pelas teclas de atalho: F8, F11 ou F12.
 
 	01_ Plugar o Pendrive do Linux Mint no seu computador;
-	02_ Ligar o computador e acessar o sistema de boot com as teclas atalho (F8, F11 ou F12);
+	02_ Ligar o computador e acessar o sistema de boot com as teclas de atalho (F8, F11 ou F12);
 	03_ Iniciar o Linux Mint como se fosse fazer uma nova instalação. 
 
 #02_ Diminuir a Partição Raiz do Linux Mint para instalar o Batocera
@@ -101,7 +101,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	OBSERVAÇÃO IMPORTANTE: Esse procedimento demora um pouco dependendo do tipo de Hard Disk que 
 	você está usando (HD mecânico de 5400rpm por exemplo).
 
-	04_ Clicar na opção: Apply All Operations, <Apply> (esse processo demora um pouco, aguarde)
+	04_ Clicar na opção: Apply All Operations, <Apply> (esse processo demora um pouco, aguarde...)
 	<Close>;
 
 #03_ Criando as Partições do Batocera no Espaço não Alocado do Linux Mint
@@ -114,7 +114,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	03_ No espaço não alocado (unallocated), clicar com o botão direito do mouse na partição e 
 	selecionar: New;
 	
-	04_ Criar uma partição de: Total do Disco (+-230424MB ou quanto sobre no seu disco), File 
+	04_ Criar uma partição de: Total do Disco (+-230424MB ou quanto sobrou no seu disco), File 
 	system: Ext4, Label: SHARE <Add>;
 
 	OBSERVAÇÃO IMPORTANTE: Esse procedimento demora um pouco dependendo do tipo de Hard Disk que 
@@ -122,7 +122,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 	05_ Clicar na opção: Apply All Operations, <Apply> (esse processo demora um pouco) <Close>;
 
-	06_ Reiniciar o Live do Linux Mint e volte para o Linux Mint instalado no Hard Disk para 
+	06_ Reiniciar o Live do Linux Mint e voltar para o Linux Mint instalado no Hard Disk para 
 	verificar se está tudo OK na inicializando.
 
 	OBSERVAÇÃO IMPORTANTE: CASO VOCÊ ALTERE AO APAGUE A PARTIÇÃO DE BOOT DO LINUX MINT ELE NÃO
@@ -144,7 +144,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	04_ Clicar com o botão direito do mouse no arquivo: boot.tar.xz, selecionar: Extrair Aqui;
 
 	05_ Após extrair os arquivos, será criado o diretório: boot, acessar o diretório: boot 
-	clicando duas nele;
+	clicando duas vezes nele;
 
 	06_ Selecionar todos os arquivos com o atalho: Ctrl + A (selecionar tudo), copiar todo o 
 	conteúdo do diretório com o atalho: Ctrl + C (copiar) e colar todo o conteúdo na Raiz da 
@@ -172,7 +172,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 	03_ Acesse o diretório criado: raspberry-man/batocera 
 	
-	04_ Altera para Root clicando com o Botão direito do Mouse, selecione: Abrir como Root;
+	04_ Mudar para Root clicando com o Botão direito do Mouse, selecione: Abrir como Root;
 
 	05_ Selecione o arquivo: 15_batocera clique com o botão direito do mouse e selecione: Copiar;
 	
@@ -196,15 +196,17 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	#Editando o arquivo de configuração do GRUB
 	vim /etc/default/grub <Enter>;
 
-		#Pressione INSERT para entrar no modo de Edição, alterar as linhas abaixo:
-			
-			#mudar de hidden para menu
-			GRUB_TIMEOUT_STYLE=menu
-			
-			#mudar de 0 para 10
-			GRUB_TIMEOUT=10
+	#Pressione INSERT para entrar no modo de Edição, alterar as linhas abaixo:
+	INSERT
+
+		#alterar a linha: 7 do GRUB_TIMEOUT_STYLE de: hidden para: menu
+		GRUB_TIMEOUT_STYLE=menu
 		
-		#Pressione ESC para sair do modo de Edição, pressione: Shift :x <Enter> para salvar e sair do VIM
+		#alterar a linha: 8 do GRUB_TIMEOUT de: 0 para: 10 (segundos)
+		GRUB_TIMEOUT=10
+		
+	#salvar e sair do arquivo
+	ESC SHIFT : x <Enter>
 
 	#Atualizando as informações do GRUB
 	update-grub
