@@ -137,6 +137,12 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 	
 	OBSERVAÇÃO IMPORTANTE: verifique se as partições BATOCERA e SHARE foram criadas corretamente;
 
+	OBSERVAÇÃO IMPORTANTE: TESTES FEITOS NA VERSÃO V39 DO BATOCERA ESTÁ TRAVANDO E CONGELANDO NA
+	HORA DE EXECUTAR OS JOGOS (FREEZING), RECOMENDO CASO ISSO ACONTEÇA TESTAR AS VERSÕES ANTERIORES
+	NO LINK: http://mirrors.o2switch.fr/batocera/x86_64/
+
+	LINK DAS VERSÕES ESTÁVEIS DO BATOCERA: http://mirrors.o2switch.fr/batocera/x86_64/stable/
+	
 	02_ Fazer o download do Batocera no Link: http://batocera.org/upgrades/x86_64/stable/last/boot.tar.xz
 
 	03_ Após o download do arquivo do Batocera acesse o diretório: Download;
