@@ -72,7 +72,7 @@ Utilizar o software **GParted** do Live do Mint para reparticionar o Hard Disk e
 A) **Partição 1:** Tipo (type) = *fat32*, Nome (name) = __` BATOCERA `__, Tamanho mínimo de *5.0GB* (recomendado 10GB);<br>
 B) **Partição 2:** Tipo (type) = *ext4*,  Nome (name) = __` SHARE `__, deve ser criada logo após a partição *BATOCERA*.
 
-#02_ Iniciando o Linux Mint com o Pendrive de Instalação
+## 02_ Iniciando o Linux Mint com o Pendrive de Instalação
 
 **OBSERVAÇÃO IMPORTANTE:** Cada computador ou notebook possuí uma forma diferente de iniciar o Linux Mint pelo Pendrive, podendo ser pelas teclas de atalho: F8, F11 ou F12.
 
@@ -80,7 +80,7 @@ A) Plugar o Pendrive do Linux Mint no seu computador;<br>
 B) Ligar o computador e acessar o sistema de boot com as teclas de atalho (F8, F11 ou F12);<br>
 C) Iniciar o Linux Mint como se fosse fazer uma nova instalação.
 
-## 02_ Diminuir a Partição Raiz do Linux Mint para instalar o Batocera
+## 03_ Diminuir a Partição Raiz do Linux Mint para instalar o Batocera
 ```bash
 01_ Após a inicialização do Linux Mint executar o aplicativo GParted: 
     Menu, 
@@ -106,7 +106,7 @@ do disco disponível) - <Resize/Move>;
     <Close>;
 ```
 
-#03_ Criando as Partições do Batocera no Espaço não Alocado do Linux Mint
+## 04_ Criando as Partições do Batocera no Espaço não Alocado do Linux Mint
 ```bash
 01_ No espaço não alocado (unallocated), clicar com o botão direito do mouse na partição e 
 selecionar: New;
@@ -135,7 +135,7 @@ verificar se está tudo OK na inicializando.
 
 **OBSERVAÇÃO IMPORTANTE:** CASO VOCÊ ALTERE OU APAGUE A PARTIÇÃO DE BOOT DO LINUX MINT, ELE NÃO IRÁ MAIS INICIAR CORRETAMENTE, MUITO CUIDADO NOS PROCEDIMENTOS DE REDIMENSIONAMENTO DE DISCO.
 
-#04_ Instalando o Batocera Linux na partição BATOCERA criada no Linux Mint
+## 05_ Instalando o Batocera Linux na partição BATOCERA criada no Linux Mint
 ```bash
 01_ Verifique se as partições foram criadas com sucesso: 
     Menu, 
@@ -173,7 +173,7 @@ partição: BATOCERA com o atalho: Ctrl + V (colar);
 Batocera na partição BATOCERA e SHARE.
 ```
 
-#05_ Criando o arquivo do Grub para suportar o Dual Boot do Batocera e do Linux Mint
+## 06_ Criando o arquivo do Grub para suportar o Dual Boot do Batocera e do Linux Mint
 
 Fazer o download do projeto do Github: https://github.com/vaamonde/raspberry <br>
 
@@ -206,7 +206,7 @@ Extrair Aqui;
 nesse diretório com o atalho: Ctrl + V ou com o Botão Direito do mouse e selecione: Colar
 ```
 
-#06 Habilitando o arquivo do Grub do Batocera no Linux Mint
+## 07 Habilitando o arquivo do Grub do Batocera no Linux Mint
 ```bash
 01_ No diretório: /etc/grub.d/, acesse o Terminal como Root, clique com o Botão direito do Mouse
 na área branca e selecione: Abrir no Terminal;
@@ -246,7 +246,7 @@ update-grub
 reboot
 ```
 
-#07_ Ligando o Linux Mint com Dual Boot do Batocera Linux
+## 08_ Ligando o Linux Mint com Dual Boot do Batocera Linux
 ```bash
 01_ Na instalação do Linux Mint selecione: Batocera Linux Retro Games
 ```
@@ -257,7 +257,7 @@ reboot
 
 **OBSERVAÇÃO IMPORTANTE:** no Batocera Linux os *controles/joystick* são reconhecidos automaticamente.
 
-#08_ Configurações básicas do Batocera Linux
+## 09_ Configurações básicas do Batocera Linux
 
 **OBSERVAÇÃO IMPORTANTE:** por padrão o Batocera Linux vem configurado na lingua *Americano/Inglês*;
 
@@ -279,7 +279,7 @@ reboot
 
 **OBSERVAÇÃO IMPORTANTE:** Para sair de um jogo você pressiona: Start + Select (Simultaneamente).
 
-#09_ Conhecendo as Partições do Batocera Linux
+## 10_ Conhecendo as Partições do Batocera Linux
 
 **Partição BATOCERA:** sistema de boot e arquivos de inicialização/binários do Batocera;
 
@@ -291,7 +291,7 @@ Na partição **SHARE** no diretório: *roms* fica localizado todos os diretóri
 
 **OBSERVAÇÃO IMPORTANTE:** para copiar arquivos para a partição SHARE no Linux Mint é necessário acessar como Root a partição SHARE (Botão direito do mouse na partição/diretório SHARE, selecionar: Abrir como root).
 
-#10_ Dicas de configurações dos emuladores do Batocera Linux
+## 11_ Dicas de configurações dos emuladores do Batocera Linux
 
 **NINTENDO 64:** emulador que funciona perfeitamente os jogos: LIBRETRO / PARALLEL N64;
 ```bash
