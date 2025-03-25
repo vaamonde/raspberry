@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 #Agora eu vou dar Hadouken !!! Joystick Arcade iPega PG-9059 Fight | PC | Nintendo Switch | PS3 e 4:<br> 
 #https://www.youtube.com/watch?v=OnaDImXmWz8
 
-#Instalação do Batocera v32 (30/09/2021) em Dual Boot com o Linux Mint 20.2 Uma (Desktop ou Notebook)
+# Instalação do Batocera v32 (30/09/2021) em Dual Boot com o Linux Mint 20.2 Uma (Desktop ou Notebook)
 
 ## 01_ Partições utilizadas pelo Batocera que deve ser criadas no Linux Mint
 
