@@ -133,7 +133,7 @@ system: Ext4, Label: SHARE <Add>;
 verificar se está tudo OK na inicializando.
 ```
 
-**OBSERVAÇÃO IMPORTANTE:** CASO VOCÊ ALTERE AO APAGUE A PARTIÇÃO DE BOOT DO LINUX MINT ELE NÃO IRÁ MAIS INICIAR CORRETAMENTE, MUITO CUIDADO NOS PROCEDIMENTOS DE REDIMENSIONAMENTO DE DISCO.
+**OBSERVAÇÃO IMPORTANTE:** CASO VOCÊ ALTERE OU APAGUE A PARTIÇÃO DE BOOT DO LINUX MINT, ELE NÃO IRÁ MAIS INICIAR CORRETAMENTE, MUITO CUIDADO NOS PROCEDIMENTOS DE REDIMENSIONAMENTO DE DISCO.
 
 #04_ Instalando o Batocera Linux na partição BATOCERA criada no Linux Mint
 ```bash
@@ -221,7 +221,7 @@ apt update && apt install vim
 chmod -v a+x 15_batocera
 
 #Editando o arquivo de configuração do GRUB
-vim /etc/default/grub <Enter>;
+vim /etc/default/grub
 
 #Pressione INSERT para entrar no modo de Edição, alterar as linhas abaixo:
 INSERT
