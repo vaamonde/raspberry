@@ -63,7 +63,7 @@ https://www.youtube.com/watch?v=vS3SVAzp3QU
 
 #Instalação do Batocera v32 (30/09/2021) em Dual Boot com o Linux Mint 20.2 Uma (Desktop ou Notebook)
 
-#01_ Partições utilizadas pelo Batocera que deve ser criadas no Linux Mint
+## 01_ Partições utilizadas pelo Batocera que deve ser criadas no Linux Mint
 
 **OBSERVAÇÃO IMPORTANTE:** Para reparticionar o *Linux Mint* é necessário utilizar um Pen Driver do Mint com o sistema desmontado;
 
@@ -80,7 +80,7 @@ A) Plugar o Pendrive do Linux Mint no seu computador;<br>
 B) Ligar o computador e acessar o sistema de boot com as teclas de atalho (F8, F11 ou F12);<br>
 C) Iniciar o Linux Mint como se fosse fazer uma nova instalação.
 
-#02_ Diminuir a Partição Raiz do Linux Mint para instalar o Batocera
+## 02_ Diminuir a Partição Raiz do Linux Mint para instalar o Batocera
 ```bash
 01_ Após a inicialização do Linux Mint executar o aplicativo GParted: 
     Menu, 
